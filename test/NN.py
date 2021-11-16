@@ -8,12 +8,15 @@ import numpy as np
 from transformers import AutoModel, AutoTokenizer 
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MultiLabelBinarizer
-from sentence_transformers import SentenceTransformer
+# from sentence_transformers import SentenceTransformer
 
 
 FILEPATH = '490A final project data - Kai Processing.csv'
 SENTENCE = 'senetence'
 LABEL = 'translate'
+
+device = 'cuda' if torch.cuda.is_available() else 'cpu'
+print('Using {} device'.format(device))
 
 def read_csv(filepath):
     with open(filepath, 'r', encoding='utf8') as csv_file:
@@ -26,27 +29,27 @@ def read_csv(filepath):
                 labels.append([c for c in row[LABEL] if c in emoji.UNICODE_EMOJI['en']])
     return sentences, labels
 
-def vectorize_sentence_sent_trans(filepath):
-    sent_trans = SentenceTransformer('all-mpnet-base-v2')
-
-    sentences, emojis = read_csv(filepath)
-    mlb = MultiLabelBinarizer()
-    labels = mlb.fit_transform(emojis)
-
-    for sentence, label in zip(sentences, labels):
-        feature = sent_trans.encode(sentence)
-        feature_label = np.concatenate((feature, label), axis=None)
-        print(len(feature))
-        total = np.array([])
-        features = np.array([])
-        if len(features) == 0:
-                features = np.hstack((features, np.array(feature)))
-                total = np.hstack((total, np.array(feature_label)))
-        else:
-            features = np.vstack((features, np.array(feature)))
-            total = np.vstack((total, np.array(feature_label)))
-    
-    return features, labels, total, sentences, emojis, mlb.classes_
+# def vectorize_sentence_sent_trans(filepath):
+#     sent_trans = SentenceTransformer('all-mpnet-base-v2')
+#
+#     sentences, emojis = read_csv(filepath)
+#     mlb = MultiLabelBinarizer()
+#     labels = mlb.fit_transform(emojis)
+#
+#     for sentence, label in zip(sentences, labels):
+#         feature = sent_trans.encode(sentence)
+#         feature_label = np.concatenate((feature, label), axis=None)
+#         print(len(feature))
+#         total = np.array([])
+#         features = np.array([])
+#         if len(features) == 0:
+#                 features = np.hstack((features, np.array(feature)))
+#                 total = np.hstack((total, np.array(feature_label)))
+#         else:
+#             features = np.vstack((features, np.array(feature)))
+#             total = np.vstack((total, np.array(feature_label)))
+#
+#     return features, labels, total, sentences, emojis, mlb.classes_
 
 def vectorize_sentence(filepath):
     bertweet = AutoModel.from_pretrained("vinai/bertweet-base")
@@ -103,21 +106,23 @@ class emojiDataset(Dataset):
 class toEmoji(nn.Module):
     def __init__(self):
         super().__init__()
-        self.input_layer = nn.Linear(768, 700)
-        self.hidden1 = nn.Linear(700,600)
-        self.hidden2 = nn.Linear(600,500)
-        self.hidden3 = nn.Linear(500,400)
-        self.hidden4 = nn.Linear(400,300)
-        self.hidden5 = nn.Linear(300,200)
-        self.output = nn.Linear(200,197)
+        # self.input_layer = nn.Linear(768, 700)
+        # self.hidden1 = nn.Linear(700,600)
+        # self.hidden2 = nn.Linear(600,500)
+        # self.hidden3 = nn.Linear(500,400)
+        # self.hidden4 = nn.Linear(400,300)
+        # self.hidden5 = nn.Linear(300,200)
+        # self.output = nn.Linear(200,197)
+
+        self.output = nn.Linear(768, 197)
         
     def forward(self, data):
-        data = F.relu(self.input_layer(data))
-        data = F.relu(self.hidden1(data))
-        data = F.relu(self.hidden2(data))
-        data = F.relu(self.hidden3(data))
-        data = F.relu(self.hidden4(data))
-        data = F.relu(self.hidden5(data))
+        # data = F.relu(self.input_layer(data))
+        # data = F.relu(self.hidden1(data))
+        # data = F.relu(self.hidden2(data))
+        # data = F.relu(self.hidden3(data))
+        # data = F.relu(self.hidden4(data))
+        # data = F.relu(self.hidden5(data))
         return self.output(data)
 
         # return F.log_softmax(data, dim=1)
