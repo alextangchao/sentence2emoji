@@ -8,6 +8,8 @@ import numpy as np
 from transformers import AutoModel, AutoTokenizer 
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MultiLabelBinarizer
+from sentence_transformers import SentenceTransformer
+
 
 FILEPATH = '490A final project data - Kai Processing.csv'
 SENTENCE = 'senetence'
@@ -23,6 +25,28 @@ def read_csv(filepath):
                 sentences.append(row[SENTENCE])
                 labels.append([c for c in row[LABEL] if c in emoji.UNICODE_EMOJI['en']])
     return sentences, labels
+
+def vectorize_sentence_sent_trans(filepath):
+    sent_trans = SentenceTransformer('all-mpnet-base-v2')
+
+    sentences, emojis = read_csv(filepath)
+    mlb = MultiLabelBinarizer()
+    labels = mlb.fit_transform(emojis)
+
+    for sentence, label in zip(sentences, labels):
+        feature = sent_trans.encode(sentence)
+        feature_label = np.concatenate((feature, label), axis=None)
+        print(len(feature))
+        total = np.array([])
+        features = np.array([])
+        if len(features) == 0:
+                features = np.hstack((features, np.array(feature)))
+                total = np.hstack((total, np.array(feature_label)))
+        else:
+            features = np.vstack((features, np.array(feature)))
+            total = np.vstack((total, np.array(feature_label)))
+    
+    return features, labels, total, sentences, emojis, mlb.classes_
 
 def vectorize_sentence(filepath):
     bertweet = AutoModel.from_pretrained("vinai/bertweet-base")
