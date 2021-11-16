@@ -11,9 +11,9 @@ from sklearn.preprocessing import MultiLabelBinarizer
 from sentence_transformers import SentenceTransformer
 
 
-FILEPATH = '490A final project data - Kai Processing.csv'
-SENTENCE = 'senetence'
-LABEL = 'translate'
+FILEPATH = '490A final project data - mmz Dataset.csv'
+SENTENCE = 'Sentence'
+LABEL = 'Translate'
 
 def read_csv(filepath):
     with open(filepath, 'r', encoding='utf8') as csv_file:
@@ -22,8 +22,14 @@ def read_csv(filepath):
         labels = []
         for row in csv_reader:
             if row[LABEL] != '':
-                sentences.append(row[SENTENCE])
-                labels.append([c for c in row[LABEL] if c in emoji.UNICODE_EMOJI['en']])
+                try:
+                    sentences.append(row[SENTENCE])
+                    current_label = [c for c in row[LABEL] if c in emoji.UNICODE_EMOJI['en']][0]
+                    labels.append(current_label)
+                    print(current_label)
+                except IndexError:
+                    print(row)
+
     return sentences, labels
 
 def vectorize_sentence_sent_trans(filepath):
@@ -103,21 +109,13 @@ class emojiDataset(Dataset):
 class toEmoji(nn.Module):
     def __init__(self):
         super().__init__()
-        self.input_layer = nn.Linear(768, 700)
-        self.hidden1 = nn.Linear(700,600)
-        self.hidden2 = nn.Linear(600,500)
-        self.hidden3 = nn.Linear(500,400)
-        self.hidden4 = nn.Linear(400,300)
-        self.hidden5 = nn.Linear(300,200)
-        self.output = nn.Linear(200,197)
+        self.input_layer = nn.Linear(768, 400)
+        self.hidden1 = nn.Linear(400,200)
+        self.output = nn.Linear(200,115)
         
     def forward(self, data):
         data = F.relu(self.input_layer(data))
         data = F.relu(self.hidden1(data))
-        data = F.relu(self.hidden2(data))
-        data = F.relu(self.hidden3(data))
-        data = F.relu(self.hidden4(data))
-        data = F.relu(self.hidden5(data))
         return self.output(data)
 
         # return F.log_softmax(data, dim=1)
