@@ -34,10 +34,20 @@ def vectorize_sentence(filepath):
     
     total = np.array([])
     features = np.array([])
-    for line, label in zip(sentences, labels):
-        input_ids = torch.tensor([tokenizer.encode(line)])
+    for text, label in zip(sentences, labels):
+        encoding = tokenizer.encode_plus(
+            text,
+            # max_length=32,
+            add_special_tokens=True,  # Add '[CLS]' and '[SEP]'
+            return_token_type_ids=False,
+            padding=True,
+            truncation=True,
+            return_attention_mask=True,
+            return_tensors='pt',  # Return PyTorch tensors
+        )
         with torch.no_grad():
-            feature = bertweet(input_ids).pooler_output  # Models outputs are now tuples
+            feature = bertweet(input_ids=encoding['input_ids'],
+                        attention_mask=encoding['attention_mask']).pooler_output  # Models outputs are now tuples
             feature = feature[0].detach().cpu().numpy()
             feature_label = np.concatenate((feature, label), axis=None)
             if len(features) == 0:
