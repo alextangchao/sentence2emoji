@@ -1,4 +1,4 @@
-import torch, csv, emoji
+import torch, csv, emoji, random
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader, Dataset
 import torch.nn as nn
@@ -11,7 +11,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MultiLabelBinarizer, StandardScaler
 # from sentence_transformers import SentenceTransformer
 
-
+CLASSES = ['❌️','😂','👨‍⚕️']
 FILEPATH = 'final.csv'
 SENTENCE = 'sentence'
 LABEL = 'label'
@@ -29,7 +29,7 @@ def read_csv(filepath):
                 try:
                     sentences.append(row[SENTENCE])
                     # current_label = [c for c in row[LABEL] if c in emoji.UNICODE_EMOJI['en']][0]
-                    current_label = [int(row[LABEL])]
+                    current_label = [random.choice(CLASSES)]
                     labels.append(current_label)
                     # print(current_label)
                 except IndexError:
@@ -63,10 +63,10 @@ def vectorize_sentence(filepath):
     bertweet = AutoModel.from_pretrained("vinai/bertweet-base")
     tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-base", use_fast=False)
     
-    sentences, labels = read_csv(filepath)
-    # sentences, emojis = read_csv(filepath)
-    # mlb = MultiLabelBinarizer()
-    # labels = mlb.fit_transform(emojis)
+    # sentences, labels = read_csv(filepath)
+    sentences, emojis = read_csv(filepath)
+    mlb = MultiLabelBinarizer()
+    labels = mlb.fit_transform(emojis)
     
     total = np.array([])
     features = np.array([])
@@ -101,15 +101,15 @@ def vectorize_sentence(filepath):
     features = SS.fit_transform(features)
     # features = stats.zscore(features, axis=1, ddof=1)
     
-    return features, labels, total, sentences, labels, [0,1,2]
-    # return features, labels, total, sentences, emojis, mlb.classes_
+    # return features, labels, total, sentences, labels, [0,1,2]
+    return features, labels, total, sentences, emojis, mlb.classes_
 
 class emojiDataset(Dataset):
     def __init__(self):
         self.x, self.y, self.n_samples, self.sentences, self.emojis, self.y_classes = vectorize_sentence(FILEPATH)
         self.x = torch.from_numpy(self.x) 
-        self.y = torch.FloatTensor(self.y)
-        # self.y = torch.from_numpy(self.y).type(torch.FloatTensor)
+        # self.y = torch.FloatTensor(self.y)
+        self.y = torch.from_numpy(self.y).type(torch.FloatTensor)
 
     def get_others(self):
         return self.sentences, self.emojis, self.y_classes
@@ -126,7 +126,7 @@ class toEmoji(nn.Module):
         super().__init__()
         self.input_layer = nn.Linear(768, 400)
         self.hidden1 = nn.Linear(400,200)
-        self.output = nn.Linear(200,1)
+        self.output = nn.Linear(200,3)
         
     def forward(self, data):
         data = F.relu(self.input_layer(data))
@@ -148,4 +148,4 @@ class toEmoji(nn.Module):
 # learn_rate = optim.Adam(toemoji.parameters(), lr=0.01)
 # loss_func = nn.MSELoss()
 # epochs = 5
-vectorize_sentence(FILEPATH)
+# vectorize_sentence(FILEPATH)
