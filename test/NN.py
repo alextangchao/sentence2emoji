@@ -8,7 +8,7 @@ import numpy as np
 from scipy import stats
 from transformers import AutoModel, AutoTokenizer 
 from sklearn.linear_model import LogisticRegression
-from sklearn.preprocessing import MultiLabelBinarizer
+from sklearn.preprocessing import MultiLabelBinarizer, StandardScaler
 # from sentence_transformers import SentenceTransformer
 
 
@@ -96,9 +96,11 @@ def vectorize_sentence(filepath):
             
     
     # print(features.shape)
-    
+    SS = StandardScaler()
+    print(features)
+    features = SS.fit_transform(features)
     # features = stats.zscore(features, axis=1, ddof=1)
-                
+    
     return features, labels, total, sentences, labels, [0,1,2]
     # return features, labels, total, sentences, emojis, mlb.classes_
 
@@ -146,4 +148,4 @@ class toEmoji(nn.Module):
 # learn_rate = optim.Adam(toemoji.parameters(), lr=0.01)
 # loss_func = nn.MSELoss()
 # epochs = 5
-# vectorize_sentence(FILEPATH)
+vectorize_sentence(FILEPATH)
