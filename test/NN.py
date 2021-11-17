@@ -97,7 +97,7 @@ def vectorize_sentence(filepath):
     
     # print(features.shape)
     SS = StandardScaler()
-    print(features)
+    # print(features)
     features = SS.fit_transform(features)
     # features = stats.zscore(features, axis=1, ddof=1)
     

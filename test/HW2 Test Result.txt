@@ -1,0 +1,750 @@
+Sentence: Honestly my biggest worry is we haven't heard any rumors about RB.
+Original labels: 0, output labels: -0.04248300939798355
+
+Sentence: CHO is just so good, what he did to mari 😫
+Original labels: 0, output labels: -0.03445057570934296
+
+Sentence: this is an example tweet
+Original labels: 1, output labels: 1.0959835052490234
+
+Sentence: one month til school starts 😞😞
+Original labels: 0, output labels: 0.05233239382505417
+
+Sentence: The Brazilian people demonstrating in favor of the auditable vote
+Original labels: 1, output labels: 0.7027367949485779
+
+Sentence: i can’t believe that whole high hong situation happened 😭
+Original labels: 0, output labels: -0.008939778432250023
+
+Sentence: tell em cut the check!
+Original labels: 0, output labels: 0.11702284961938858
+
+Sentence: THANKS I HATE IT AND NOW HAVE TO SHARE IT WITH EVERYONE
+Original labels: 0, output labels: -0.006699202582240105
+
+Sentence: W
+Original labels: 2, output labels: 0.96123868227005
+
+Sentence: Bothered¿
+Original labels: 0, output labels: 0.04828263074159622
+
+Sentence: Why is it always you guys up jm’s business, keep hating on him instead of talking non sense here
+Original labels: 0, output labels: 0.0025429725646972656
+
+Sentence: Need 2-3 for 20-100
+Original labels: 1, output labels: 0.5400490164756775
+
+Sentence: Shippers will still ship, is it not them again...
+Original labels: 0, output labels: 0.042877525091171265
+
+Sentence: BTW I take any positive I said about Tammy Abraham back. He aint worth a tenner.
+Original labels: 0, output labels: -0.031334809958934784
+
+Sentence: cant say anything regarding tht kirara daily acc i literally made a daily hakari acc myself when he had one panel
+Original labels: 1, output labels: 0.9584305882453918
+
+Sentence: // barbatos beautiful waist and hips canon.
+Original labels: 2, output labels: 1.1661832332611084
+
+Sentence: I think I’m blessed
+Original labels: 2, output labels: 1.8666719198226929
+
+Sentence: Better say, \
+Original labels: 1, output labels: 1.2750203609466553
+
+Sentence: i wanna do a kickflip over a 3-stair on accident again that was so fun…
+Original labels: 2, output labels: 2.2559967041015625
+
+Sentence: notif check??
+Original labels: 2, output labels: 1.5968923568725586
+
+Sentence: Flame-o hotman
+Original labels: 1, output labels: 0.8867011666297913
+
+Sentence: “i don’t wanna hear about how bad you feel” that makes two of us
+Original labels: 1, output labels: 0.9709994792938232
+
+Sentence: The last time you never ends I've seen my credit cards, why's my old man are lined with that fits Instead of living in the
+Original labels: 0, output labels: -0.09793239831924438
+
+Sentence: gaho always slaps omg
+Original labels: 0, output labels: 0.2556783854961395
+
+Sentence: reece in texas what will he do
+Original labels: 1, output labels: 0.9209137558937073
+
+Sentence: Pointing out gang violence is racist.
+Original labels: 0, output labels: 0.05878362059593201
+
+Sentence: I’m undeniably in the best shape of my life rn.
+Original labels: 2, output labels: 2.0612902641296387
+
+Sentence: I love how my friends were pulling last night &amp; I was happily vibing on my own and enjoying my own company for once LMFAO
+Original labels: 2, output labels: 1.707261085510254
+
+Sentence: What? So she moved her mansion staff to her office? She's a thorn in the side of our country!
+Original labels: 0, output labels: 0.03588229790329933
+
+Sentence: Ratio sadly
+Original labels: 0, output labels: 0.49772295355796814
+
+Sentence: *Dislike*
+Original labels: 0, output labels: 0.1111476942896843
+
+Sentence: MY HEART 🥺 i’m so proud of him he deserves this so much ❤️
+Original labels: 2, output labels: 1.8482813835144043
+
+Sentence: Can i please get 5k retweets on my pinned tweet 🙏
+Original labels: 2, output labels: 1.9657760858535767
+
+Sentence: I wanna be delivered from this nonsense
+Original labels: 0, output labels: 0.11846267431974411
+
+Sentence: I want some fye to eat today then I wanna take a fye ass nap n watch raising Kanan
+Original labels: 1, output labels: 1.1070715188980103
+
+Sentence: Classic series.
+Original labels: 1, output labels: 0.7668834328651428
+
+Sentence: duluan yaa, have a nice dream !!
+Original labels: 2, output labels: 2.0416958332061768
+
+Sentence: Never not spit-ting.
+Original labels: 1, output labels: 1.0262700319290161
+
+Sentence: I really like this away jersey 😍
+Original labels: 2, output labels: 1.744713306427002
+
+Sentence: FREE HER!!
+Original labels: 2, output labels: 1.7811369895935059
+
+Sentence: About last night 🥴😌😇💥
+Original labels: 2, output labels: 1.6475392580032349
+
+Sentence: Lots of fun talk about the trade deadline that just wouldn't stop. Thanks again for having me on!
+Original labels: 2, output labels: 1.752528190612793
+
+Sentence: It don’t gotta be this hot 😭😭
+Original labels: 0, output labels: 0.03680533170700073
+
+Sentence: I’m feeling like I should take down my hair 🥴
+Original labels: 0, output labels: -0.04574311524629593
+
+Sentence: If this is true then I blame my 12H Pisces Mercury… for not wanting to talk about my stuff…
+Original labels: 0, output labels: 0.04848676174879074
+
+Sentence: AND I SMILE
+Original labels: 2, output labels: 1.7544580698013306
+
+Sentence: imagine if the owner of this account is one of my oomfs helppp sorry gkdkg 😭
+Original labels: 0, output labels: 0.03046935796737671
+
+Sentence: I cant wait to have my own baby girls💓🎀🧸
+Original labels: 2, output labels: 1.4916783571243286
+
+Sentence: Back on my bullshit not eating by 10 am ffffffff
+Original labels: 0, output labels: 0.12017656862735748
+
+Sentence: I’ve only had one job where I DIDN’T think really about killing myself when I was there. It was the first one.
+Original labels: 0, output labels: 0.04169715195894241
+
+Sentence: Marj said i got skinny and dont know how to act now🤣🤣 shes not wrong😝
+Original labels: 2, output labels: 1.960434079170227
+
+Sentence: Belly button piercings are so sexy.
+Original labels: 2, output labels: 1.7420389652252197
+
+Sentence: Life humbled so many parents who Thought their children were better than others.
+Original labels: 0, output labels: -0.027919849380850792
+
+Sentence: to preso nesse video
+Original labels: 1, output labels: 0.7766066193580627
+
+Sentence: Can’t believe Tyler is doing bare English with Kaz
+Original labels: 1, output labels: 1.004063606262207
+
+Sentence: The way my face lit up reading this lol
+Original labels: 2, output labels: 1.6281005144119263
+
+Sentence: Sometimes I forget that McArmys are very real and very much out there 😭
+Original labels: 1, output labels: 1.195419430732727
+
+Sentence: steve rogers is currently on a run
+Original labels: 1, output labels: 0.9102999567985535
+
+Sentence: remember seeing this cat with fat tits. good times.
+Original labels: 2, output labels: 2.2418160438537598
+
+Sentence: EXPOSEEEEEE
+Original labels: 1, output labels: 0.9651855826377869
+
+Sentence: This guy needs to be fired !
+Original labels: 0, output labels: -0.09198703616857529
+
+Sentence: who is screaming bcs mark's snap on insta?! omg help i can't handle how cute he is aaaak
+Original labels: 2, output labels: 2.2847723960876465
+
+Sentence: I laugh every time I look at it.
+Original labels: 2, output labels: 1.890730381011963
+
+Sentence: one day..
+Original labels: 1, output labels: 0.7196669578552246
+
+Sentence: All the camera man zooom!! What lace?!!
+Original labels: 1, output labels: 0.7872564196586609
+
+Sentence: \
+Original labels: 0, output labels: 0.8768367171287537
+
+Sentence: Mock Goth
+Original labels: 0, output labels: 0.6651458144187927
+
+Sentence: fck those tired eyes
+Original labels: 0, output labels: -0.06226435303688049
+
+Sentence: does katy perry still make music
+Original labels: 1, output labels: 1.1010385751724243
+
+Sentence: men never fail to disappoint me in every aspect of life
+Original labels: 0, output labels: 0.033640630543231964
+
+Sentence: 2k moots hype pinned dong thank youuuu
+Original labels: 2, output labels: 1.7396730184555054
+
+Sentence: It’s national girlfriend day 🥲💞
+Original labels: 2, output labels: 1.4020081758499146
+
+Sentence: Absolutely awesome
+Original labels: 2, output labels: 1.6305004358291626
+
+Sentence: Friday 💜
+Original labels: 2, output labels: 1.5282188653945923
+
+Sentence: Those rock people weird
+Original labels: 0, output labels: -0.06430988758802414
+
+Sentence: life*
+Original labels: 1, output labels: 0.8342501521110535
+
+Sentence: Detritivorous fish to newspapers by people
+Original labels: 1, output labels: 0.7667015790939331
+
+Sentence: 😂😂😂😂Arsenal doing what Arsenal does
+Original labels: 1, output labels: 0.9640613198280334
+
+Sentence: i like when a nigga apply’s pressure. if i gave you an unsure answer &amp; you ain’t being persistent just let’s me know you wasn’t serious idc
+Original labels: 0, output labels: -0.011634761467576027
+
+Sentence: i hope my 2kg laptop won't fall out of my school bag lol
+Original labels: 0, output labels: 0.01477157324552536
+
+Sentence: Why are people such pussys on warzone that they literally go straight for a melee and don’t even shoot. Childish behaviour
+Original labels: 0, output labels: 0.028114983811974525
+
+Sentence: Just sleeping, not overthinking. Please. Huh.
+Original labels: 1, output labels: 0.843936026096344
+
+Sentence: Retail working was a nightmare
+Original labels: 0, output labels: 0.06405074149370193
+
+Sentence: first
+Original labels: 1, output labels: 0.9946138262748718
+
+Sentence: Quit scaring people
+Original labels: 0, output labels: -0.046268485486507416
+
+Sentence: Shock😭 Bum FC
+Original labels: 2, output labels: 1.5063611268997192
+
+Sentence: Meko b couple goals karny hy😩🥺
+Original labels: 1, output labels: 0.8225535750389099
+
+Sentence: Almost there 🙏🏾🤗
+Original labels: 2, output labels: 1.8793889284133911
+
+Sentence: let's get this bread
+Original labels: 2, output labels: 1.8605077266693115
+
+Sentence: had a nice day witchuu my &lt;444
+Original labels: 2, output labels: 1.8838433027267456
+
+Sentence: \
+Original labels: 1, output labels: 0.8768367171287537
+
+Sentence: i’m embarrassed that i immediately knew this was breezewood, pa without zooming in...
+Original labels: 0, output labels: 0.009168380871415138
+
+Sentence: LOOK AT HIMMMMMMMMM
+Original labels: 2, output labels: 2.1192116737365723
+
+Sentence: he's sooooo adorble 🥺🥺
+Original labels: 2, output labels: 1.9254682064056396
+
+Sentence: And I couldn’t be happier or more excited for it to be the end of August. 😂 24 more days, motherfuckers. ✈️
+Original labels: 2, output labels: 1.68826162815094
+
+Sentence: Newly discovered band of the new MacBook—this thing is French for 'sexting'
+Original labels: 1, output labels: 0.9140326380729675
+
+Sentence: ↓ FINALLY,,, FANART OF MY DAD, 💚
+Original labels: 2, output labels: 1.9566553831100464
+
+Sentence: HELLO SCARLETTJULIAN FIRST KISS WAS SO FUCKING PERFECT
+Original labels: 2, output labels: 2.0851340293884277
+
+Sentence: \
+Original labels: 0, output labels: 0.8768367171287537
+
+Sentence: Happy birthday Ms. Valerie
+Original labels: 2, output labels: 1.4020599126815796
+
+Sentence: UNREAL 💫🤯
+Original labels: 1, output labels: 1.084463119506836
+
+Sentence: or, maybe, a generated badger
+Original labels: 1, output labels: 1.0563342571258545
+
+Sentence: The sweetest 💛
+Original labels: 2, output labels: 1.827999472618103
+
+Sentence: If that site exist I am ready to marry Jimin Biased army boy right now😂😂😍
+Original labels: 2, output labels: 1.977761149406433
+
+Sentence: I hope she will leave that group who just holds her back.
+Original labels: 0, output labels: 0.04338826984167099
+
+Sentence: why be normal?
+Original labels: 1, output labels: 1.2793360948562622
+
+Sentence: im going thru it eric sohn
+Original labels: 1, output labels: 0.9147104620933533
+
+Sentence: this jis00 vs j1n fight is just getting jis00 dragged 😭😭
+Original labels: 0, output labels: 0.017277678474783897
+
+Sentence: dis whole week I spent money like I move BIG pounds of dopee😭😭😭
+Original labels: 0, output labels: 0.06783945113420486
+
+Sentence: warrior - seventeen
+Original labels: 1, output labels: 1.2325578927993774
+
+Sentence: i trickle shit
+Original labels: 0, output labels: 0.15040506422519684
+
+Sentence: Just Yeet the baby
+Original labels: 2, output labels: 1.7758253812789917
+
+Sentence: Y'all put down stumps in Guyana and didn't expect it to rain?
+Original labels: 0, output labels: 0.12022817879915237
+
+Sentence: Very cute! 😍😍😍
+Original labels: 2, output labels: 1.5142031908035278
+
+Sentence: Nah... Timo Werner is still the worst of them all 🙏🏽
+Original labels: 0, output labels: 0.07676952332258224
+
+Sentence: my birthday next month🥰🥰
+Original labels: 2, output labels: 1.7853986024856567
+
+Sentence: already a shitty sunday
+Original labels: 0, output labels: 0.09339237958192825
+
+Sentence: It’s HIPAA and the term your looking for is “citing” but yeah, listen to this genius if you’d like.
+Original labels: 2, output labels: 2.26536226272583
+
+Sentence: Wifi
+Original labels: 1, output labels: 0.9407669901847839
+
+Sentence: Elneny looks like another that will see out his contract &amp; leave for nothing in a year's time. 🤦🏽‍♂️
+Original labels: 0, output labels: 0.024819934740662575
+
+Sentence: im glad you all agree
+Original labels: 2, output labels: 1.779260277748108
+
+Sentence: I got u
+Original labels: 2, output labels: 1.4152661561965942
+
+Sentence: Yass pleaseee 🌻😆✨
+Original labels: 2, output labels: 1.9802048206329346
+
+Sentence: Follow everyone who retweets and likes this 👑😭😄🔖😍😃😱😄🥵
+Original labels: 2, output labels: 1.4258441925048828
+
+Sentence: I’ll post my dame since today is National Girlfriend Day😎
+Original labels: 2, output labels: 1.7393279075622559
+
+Sentence: Uh oh 👀
+Original labels: 0, output labels: -0.048095278441905975
+
+Sentence: Por que NWBAM&amp;&amp;/&amp;-&amp;£***i88i
+Original labels: 1, output labels: 1.0387396812438965
+
+Sentence: let me BREATHE
+Original labels: 0, output labels: 0.052581243216991425
+
+Sentence: There is only BLAST for me. The only ones who accepted me were my seniors.
+Original labels: 0, output labels: 0.028001252561807632
+
+Sentence: My job gave me a final for something someone is still doing . 👌\n\nIm the best rep they got
+Original labels: 2, output labels: 2.006136894226074
+
+Sentence: Pushing forward on the hope that next time this year we’ll be in the PNW and I’ll have a local job.
+Original labels: 2, output labels: 2.321702003479004
+
+Sentence: So sexy
+Original labels: 2, output labels: 1.71254301071167
+
+Sentence: Just started Bates Motel. So far so good 👌🏾
+Original labels: 2, output labels: 1.817463755607605
+
+Sentence: Bless you Levar for your selflessness &amp; generosity ♥️
+Original labels: 2, output labels: 1.2999279499053955
+
+Sentence: i need a bitch who likes frogs
+Original labels: 1, output labels: 1.0115711688995361
+
+Sentence: y'all are looking for some reason to praise racist and islamophobic yt women i swear
+Original labels: 0, output labels: -0.03622905910015106
+
+Sentence: Tammy and Kepa, shouldnt be at this club. Incompetent af.
+Original labels: 0, output labels: 0.042525604367256165
+
+Sentence: Me
+Original labels: 1, output labels: 1.0905815362930298
+
+Sentence: As the day progresses I’m getting more and more annoyed and pissed off but we gon try &amp; keep it positive
+Original labels: 2, output labels: 2.1775946617126465
+
+Sentence: Good Project Join for all🖤
+Original labels: 2, output labels: 1.4526965618133545
+
+Sentence: some days i miss the bond, then i remember the disrespect.
+Original labels: 1, output labels: 0.997677206993103
+
+Sentence: the rnm twitter better post one about alex next or else 🔪
+Original labels: 0, output labels: -0.06059823930263519
+
+Sentence: Lord, as I stay here in Cebu, i hope you would strenghten my immunity and protect me against all harms. This I pray everyday.
+Original labels: 2, output labels: 2.1994516849517822
+
+Sentence: JaM give the people what they want!
+Original labels: 1, output labels: 0.7385347485542297
+
+Sentence: It's gonna be chaos!!!!!!!!!!!!!!
+Original labels: 0, output labels: 0.040822483599185944
+
+Sentence: i will start bullying shock fans as i no longer can bully fusion fans.
+Original labels: 0, output labels: 0.06130988150835037
+
+Sentence: can’t believe we’re going into the summer break leading the drivers championship 😭🤎
+Original labels: 2, output labels: 1.706398844718933
+
+Sentence: he’s such a dad I can’t
+Original labels: 0, output labels: 0.11413838714361191
+
+Sentence: Counting daysss to my 2nd jab!!!!!!!! 🥳
+Original labels: 2, output labels: 1.6880186796188354
+
+Sentence: but i told the jinni under my bed about you
+Original labels: 1, output labels: 1.0600658655166626
+
+Sentence: I’m reading a book where they spelled bologna as baloney… like trust me I understand but in a “NYT bestseller” though ?
+Original labels: 1, output labels: 1.251085638999939
+
+Sentence: the tl has been depriving me of good mental health all this time!!! /hj
+Original labels: 0, output labels: 0.030220050364732742
+
+Sentence: OMFG I LOVE YOU JACK
+Original labels: 2, output labels: 1.8234978914260864
+
+Sentence: EAT YOU UP by the Team Saho sorry
+Original labels: 0, output labels: 0.11586890369653702
+
+Sentence: I’m really going to be the best me I can be this whole month 🙏🏽❤️ takes 30 days to create a habit and I’m on it 💯❗️
+Original labels: 2, output labels: 1.5795698165893555
+
+Sentence: kindness makes you sexy
+Original labels: 2, output labels: 2.0795373916625977
+
+Sentence: U see the squad that finished this game?, We gotta ditch 70% of them.
+Original labels: 2, output labels: 2.212782382965088
+
+Sentence: Not every girl is replaceable bro.
+Original labels: 2, output labels: 1.7157291173934937
+
+Sentence: What a wonderful birthday present
+Original labels: 2, output labels: 1.8806160688400269
+
+Sentence: London's best rich karaoke bars
+Original labels: 2, output labels: 1.5697575807571411
+
+Sentence: If I Lay Down Now Its Over 😭
+Original labels: 0, output labels: -0.0007893498986959457
+
+Sentence: No because Drew’s acting is astronomical
+Original labels: 1, output labels: 0.8076990246772766
+
+Sentence: BABYYY
+Original labels: 2, output labels: 1.8303934335708618
+
+Sentence: How to know someone is a parasite on the public purse, exhibit a.
+Original labels: 1, output labels: 0.9647216796875
+
+Sentence: Im so sick I lost my android 🙄 allllllll my shit I’m there 😭
+Original labels: 0, output labels: 0.04187389463186264
+
+Sentence: like bro shut the fuck up
+Original labels: 0, output labels: 0.014800915494561195
+
+Sentence: so excited for 5up's irl streams its gonna be so KXSHXJSJSJ
+Original labels: 2, output labels: 2.0460381507873535
+
+Sentence: summers almost over i am not ready for this year of school
+Original labels: 0, output labels: 0.06367198377847672
+
+Sentence: i am now just realizing i have the same pfp.
+Original labels: 1, output labels: 0.9662989377975464
+
+Sentence: my telfeezy got here 
+Original labels: 2, output labels: 1.6966670751571655
+
+Sentence: your too nice i have a boyfriend
+Original labels: 2, output labels: 1.8367207050323486
+
+Sentence: believe
+Original labels: 1, output labels: 0.9409897327423096
+
+Sentence: this could be a Donald Trump tweet
+Original labels: 1, output labels: 0.921664297580719
+
+Sentence: Getting your toes sucked feels heavenly, Happy Sunday ya'll
+Original labels: 2, output labels: 1.6671804189682007
+
+Sentence: happy upload day bffs
+Original labels: 2, output labels: 1.7027101516723633
+
+Sentence: Unfortunately. Yes this is where it’s goinggoing
+Original labels: 0, output labels: 0.0935349091887474
+
+Sentence: New remi wolf, ok I'll shutup for a while now
+Original labels: 0, output labels: 0.03763096034526825
+
+Sentence: I mean if it's not dangerous then it not worth it?? What is even your stance on enlistment??
+Original labels: 0, output labels: 0.11368705332279205
+
+Sentence: Just thought about the last time a choke made my eyes roll tf back
+Original labels: 0, output labels: -0.0495271235704422
+
+Sentence: for sure yeo jun seok saw jennie noticing hwang sunwoo and got jealous😭
+Original labels: 0, output labels: 0.2058473378419876
+
+Sentence: Oh I can't make you as good as Tiny Iota, that guy was great
+Original labels: 2, output labels: 1.9671727418899536
+
+Sentence: We need proper competition for Leno. I don't even care who it is, we just need one!
+Original labels: 0, output labels: 0.024819934740662575
+
+Sentence: removing wishes from dn becuz im pulling on yoimiya banner for sayu and pulling on baals for sara but im at 70 pity so wish me luck ig &lt;/3
+Original labels: 1, output labels: 1.4345566034317017
+
+Sentence: Fuck you and your \
+Original labels: 0, output labels: -0.08044441789388657
+
+Sentence: you should definitely go follow him. its one of the best people i know &lt;3
+Original labels: 2, output labels: 1.9594091176986694
+
+Sentence: Why the hecky do I have to have a birth certificate if I have an ID and you can see that I exist
+Original labels: 0, output labels: -0.12760531902313232
+
+Sentence: That's a nice ought, it's such a shame that it isn't an is.
+Original labels: 0, output labels: 0.13571174442768097
+
+Sentence: They are no soldiers nor police. They are just terrorists.
+Original labels: 0, output labels: 0.006643638014793396
+
+Sentence: The Democrats Spending is out of CONTROL...\n\nAnd throwing in AMNESTY \nin a spending bill. Stupidy!!!
+Original labels: 0, output labels: 0.0051443204283714294
+
+Sentence: If a person does not listen, step back and stop talking. They're devaluing your words. Don't waste your time and energy on wrong people.
+Original labels: 0, output labels: -0.09554672986268997
+
+Sentence: i love them🥺😭😭
+Original labels: 2, output labels: 1.8703919649124146
+
+Sentence: Netflix will probably start producing original pornography eventually..
+Original labels: 1, output labels: 0.9022588133811951
+
+Sentence: i don’t understand how i gained.
+Original labels: 0, output labels: -0.07144135236740112
+
+Sentence: the silencer\nproud\nbrags
+Original labels: 1, output labels: 1.1127480268478394
+
+Sentence: If you leave who'll the next one be.
+Original labels: 0, output labels: 0.008013034239411354
+
+Sentence: praying for everyone who spent so much money on sour merch.. i’m so glad i controlled myself 😢
+Original labels: 2, output labels: 1.7659988403320312
+
+Sentence: how did i forget that loona had a comeback almost 2 months ago
+Original labels: 0, output labels: 0.001755768433213234
+
+Sentence: At least Nketiah looked so sharp all preseason.
+Original labels: 1, output labels: 0.9577663540840149
+
+Sentence: What are we waiting for?
+Original labels: 1, output labels: 0.9380798935890198
+
+Sentence: I’m not a twink does that make this tweet appropriative
+Original labels: 0, output labels: 0.08836240321397781
+
+Sentence: Basket
+Original labels: 1, output labels: 0.8573064208030701
+
+Sentence: Mohmiee done spoil parol for a dark handsome nigga chai 😭😭😭😭
+Original labels: 2, output labels: 1.4174953699111938
+
+Sentence: || I shall point entirely to Google as I in classic creo style make everything up as I go
+Original labels: 1, output labels: 0.9088788628578186
+
+Sentence: nah, i’m just steady stucc in my ways😂
+Original labels: 2, output labels: 1.9679878950119019
+
+Sentence: Twitter why have you changed your font now I can’t download it because my iPad is dumb \ngive me “chirp” font now
+Original labels: 0, output labels: -0.03922950476408005
+
+Sentence: I want to be around other enbys 
+Original labels: 0, output labels: 0.12975266575813293
+
+Sentence: niall + golf = amelia content 🥰
+Original labels: 2, output labels: 1.873696208000183
+
+Sentence: Some heroes have no face.. 💯
+Original labels: 1, output labels: 0.6236881017684937
+
+Sentence: i love people with good energy. it makes my heart happy.
+Original labels: 2, output labels: 2.1399574279785156
+
+Sentence: Me right now
+Original labels: 1, output labels: 0.8870964050292969
+
+Sentence: people don’t talk enough about how having daily anxiety will really effect your body physically in the worst ways
+Original labels: 0, output labels: 0.033438630402088165
+
+Sentence: why does he suit every hair colour
+Original labels: 1, output labels: 0.9204141497612
+
+Sentence: The absolute truth
+Original labels: 1, output labels: 0.9667479395866394
+
+Sentence: See JackieB fine babe , na there e end!
+Original labels: 1, output labels: 0.8774909377098083
+
+Sentence: You know a game is good when people are sitting in an hour queue just to play the beta version of a game.
+Original labels: 2, output labels: 1.848912239074707
+
+Sentence: Ducks Fly Together
+Original labels: 1, output labels: 1.1133904457092285
+
+Sentence: I’m so ready for Halloween
+Original labels: 2, output labels: 1.7041432857513428
+
+Sentence: Life lesson when you lose that (one)😔
+Original labels: 0, output labels: 0.08898601680994034
+
+Sentence: Ayee I don't think it's too lame to be stray kids' title track
+Original labels: 1, output labels: 1.1015911102294922
+
+Sentence: my boss told me to text her and remind her what days i need off and i did and now im like I'm Going to Get Fired
+Original labels: 0, output labels: 0.0033942926675081253
+
+Sentence: Last night is evident that I’m God’s favorite 🥺💕
+Original labels: 2, output labels: 1.52285897731781
+
+Sentence: dream deserves all the hate
+Original labels: 2, output labels: 1.7333916425704956
+
+Sentence: 5up cat crying gif
+Original labels: 1, output labels: 1.030669093132019
+
+Sentence: This is how playing king feels in tekken
+Original labels: 1, output labels: 0.9242033362388611
+
+Sentence: old macdonald had a farm
+Original labels: 1, output labels: 0.8630656599998474
+
+Sentence: Like this ifb@Follow Help
+Original labels: 1, output labels: 0.614569365978241
+
+Sentence: I just ran so many lights down waters with a half a bag on me
+Original labels: 1, output labels: 1.1027584075927734
+
+Sentence: I barely pay attention to my Twitter dms
+Original labels: 1, output labels: 0.9960388541221619
+
+Sentence: On God 🤣
+Original labels: 2, output labels: 0.9544450044631958
+
+Sentence: after all this time
+Original labels: 1, output labels: 1.014565110206604
+
+Sentence: How can you embrace someone 3 times in 11 seconds
+Original labels: 1, output labels: 0.7300683856010437
+
+Sentence: someone talk to me
+Original labels: 0, output labels: 0.0068139079958200455
+
+Sentence: tarages elite 🤩
+Original labels: 2, output labels: 1.2263578176498413
+
+Sentence: ‘CAUSE YOU ONLY LISTEN TO YOUR FUCKING FRIENDS I DONT RELATE TO YOU ‘CAUSE I’D NEVER TREAT ME THIS SHITTY
+Original labels: 0, output labels: 0.05769805610179901
+
+Sentence: wait????????
+Original labels: 0, output labels: 0.024819934740662575
+
+Sentence: Gonna get high, fold laundry, and think about ya’ll🥰\n\nOh and listen to a podcast, doi!
+Original labels: 2, output labels: 1.768007516860962
+
+Sentence: The good news is that two days later we are going to give a surprise to the youth of New Saeedabad
+Original labels: 2, output labels: 2.1665163040161133
+
+Sentence: Maybe I should write a Python + OpenCV rock paper scissor game for my little cousin to play around with for 5 minutes 🤔
+Original labels: 1, output labels: 0.9519224762916565
+
+Sentence: There's always
+Original labels: 1, output labels: 1.0206475257873535
+
+Sentence: I LOVE finding subs in Houston
+Original labels: 2, output labels: 1.7110563516616821
+
+Sentence: R Kelly a menace for dropping this bop during his trial
+Original labels: 1, output labels: 0.7849927544593811
+
+Sentence: Did he give himself tetanus with it?
+Original labels: 0, output labels: -0.07102488726377487
+
+Sentence: NOOO THESE R HOUR LONG EPISODES
+Original labels: 0, output labels: -0.09102009236812592
+
+Sentence: “$33.5bn, the total revenue Pfizer expects from Covid-19 vaccine this year”…on course to become one of the best-selling medicines 🧐
+Original labels: 1, output labels: 0.7391133904457092
+
+Sentence: i can’t wait to celebrate 5 years with my love in 10 days. 💕🥰
+Original labels: 2, output labels: 2.091923713684082
+
+Sentence: yall wanna know what's so funny.... me and bruh cool 😂
+Original labels: 2, output labels: 2.318415641784668
+
+Sentence: u know damn well armys can crack 100k likes on a tweet without even a caption 😭😭😭
+Original labels: 0, output labels: -0.01136603020131588
+
+Sentence: His Girl Friday on 35mm today 🤠
+Original labels: 2, output labels: 1.5649200677871704
+
+Sentence: when that casket drop im in there alone..
+Original labels: 0, output labels: 0.050398536026477814
+
+Sentence: And we're back to our regularly scheduled not-Lanny months.\n\nDid you miss her?
+Original labels: 1, output labels: 0.8477335572242737
+
