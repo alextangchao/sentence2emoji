@@ -11,7 +11,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MultiLabelBinarizer, StandardScaler
 # from sentence_transformers import SentenceTransformer
 
-CLASSES = ['❌️','😂','👨‍⚕️']
+CLASSES = ['❌️','😂','👨‍⚕️','👨','♥️','🏬','😞','🅰️','👨‍👨‍👧‍👦','😷','💊','😪','➡️','🎤','🌃','🤩','💀','🍽️','🤦','👃']
 FILEPATH = 'final.csv'
 SENTENCE = 'sentence'
 LABEL = 'label'
@@ -126,7 +126,7 @@ class toEmoji(nn.Module):
         super().__init__()
         self.input_layer = nn.Linear(768, 400)
         self.hidden1 = nn.Linear(400,200)
-        self.output = nn.Linear(200,3)
+        self.output = nn.Linear(200,20)
         
     def forward(self, data):
         data = F.relu(self.input_layer(data))
