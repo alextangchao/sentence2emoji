@@ -338,7 +338,7 @@ def main():
         revision=model_args.model_revision,
         use_auth_token=True if model_args.use_auth_token else None,
     )
-    model = BartModel.from_pretrained(
+    model = AutoModelForSeq2SeqLM.from_pretrained(
         model_args.model_name_or_path,
         from_tf=bool(".ckpt" in model_args.model_name_or_path),
         config=config,
@@ -535,9 +535,7 @@ def main():
             checkpoint = training_args.resume_from_checkpoint
         elif last_checkpoint is not None:
             checkpoint = last_checkpoint
-        # train_result = trainer.train(resume_from_checkpoint=checkpoint)
-        train_result = trainer.train()
-
+        train_result = trainer.train(resume_from_checkpoint=checkpoint)
         trainer.save_model()  # Saves the tokenizer too for easy upload
 
         metrics = train_result.metrics

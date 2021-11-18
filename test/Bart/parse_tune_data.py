@@ -38,5 +38,6 @@ sentences, labels = read_csv(".//..//490A final project data - mmz Dataset.csv")
 with open("fine_tune_data.json", "w", encoding="utf-8") as file:
     for sentence, label in zip(sentences, labels):
         sentence=re.sub(r"\\.{5}","",sentence)
+        print(sentence)
         data = json.dumps({"translation": {"en": sentence, "emoji": " ".join(label)}})
         file.write(data + "\n")
