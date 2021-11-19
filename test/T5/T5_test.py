@@ -6,8 +6,26 @@ import emoji
 MODEL = ".\\output\\"
 FILE_PATH = ".\\..\\490A final project data - Emoji-50-467.csv"
 SENTENCE = 'senetence'
-# LABEL = 'label'
 LABEL = 'translate'
+
+
+def read_emoji(filepath):
+    with open(filepath, 'r', encoding='utf8') as csv_file:
+        csv_reader = csv.DictReader(csv_file, delimiter=',')
+        emoji_vocab = []
+        for row in csv_reader:
+            for i in range(1, 6):
+                emoji_vocab.append(row[str(i)])
+
+    emoji_en = []
+    for i in emoji_vocab:
+        try:
+            emoji_en.append(emoji.UNICODE_EMOJI['en'][i])
+        except:
+            print(f"error: {i}")
+    print(f"emoji vocab: {emoji_vocab}")
+    # print(emoji_en)
+    return emoji_vocab
 
 
 def read_csv(filepath):
@@ -32,19 +50,27 @@ def tanslate_one_sentence(sentence):
     tokenizer = T5Tokenizer.from_pretrained(MODEL)
     model = T5ForConditionalGeneration.from_pretrained(MODEL)
 
-    # print(tokenizer.add_tokens([":skull:"]))
+    # add emoji vocab
+    tokenizer.add_tokens(read_emoji(".\\..\\490A final project data - corpus.csv"))
+    model.resize_token_embeddings(len(tokenizer))
 
     encoding = tokenizer(f'translate English to Emoji: {sentence}', return_tensors='pt')
     print(encoding)
     print(tokenizer.tokenize(f'translate English to Emoji: {sentence}'))
+    print(tokenizer.decode(encoding["input_ids"][0]))
     outputs = model.generate(encoding["input_ids"])
     print(outputs)
+    print(tokenizer.decode(outputs[0]))
     print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
 
 def tanslate_sentence_list(sentence_list):
     tokenizer = T5Tokenizer.from_pretrained(MODEL, local_files_only=True)
     model = T5ForConditionalGeneration.from_pretrained(MODEL, local_files_only=True)
+
+    # add emoji vocab
+    tokenizer.add_tokens(read_emoji(".\\..\\490A final project data - corpus.csv"))
+    model.resize_token_embeddings(len(tokenizer))
 
     # when generating, we will use the logits of right-most token to predict the next token
     # so the padding should be on the left
@@ -64,8 +90,16 @@ def tanslate_sentence_list(sentence_list):
     return tokenizer.batch_decode(output_sequences, skip_special_tokens=True)
 
 
+def save_result_csv(sentences, labels, translation):
+    with open("translation result.csv", "w", encoding="utf-8", newline="") as csvfile:
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(["Sentence", "Original emoji", "output emoji"])
+        for index, sentence in enumerate(sentences):
+            csvwriter.writerow([sentence, labels[index], translation[index]])
+
+
 def main():
-    # tanslate_one_sentence("He is running like a superman! :skull:")
+    # tanslate_one_sentence("A lot of them niggas🤧")
     # return
 
     sentences, labels = read_csv(FILE_PATH)
@@ -73,6 +107,7 @@ def main():
     for index, sentence in enumerate(sentences):
         print(f'Sentence: {sentence}')
         print(f"Original labels: {labels[index]}, output labels: '{translation[index]}'")
+    save_result_csv(sentences, labels, translation)
 
 
 if __name__ == "__main__":

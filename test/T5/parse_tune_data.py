@@ -3,10 +3,9 @@ import csv
 import emoji
 import re
 
-FILEPATH = 'final.csv'
-SENTENCE = 'Sentence'
-# LABEL = 'label'
-LABEL = 'Translate'
+FILE_PATH = ".\\..\\490A final project data - Emoji-50-467.csv"
+SENTENCE = 'senetence'
+LABEL = 'translate'
 
 
 def read_csv(filepath):
@@ -27,7 +26,7 @@ def read_csv(filepath):
     return sentences, labels
 
 
-sentences, labels = read_csv(".//..//490A final project data - mmz Dataset.csv")
+sentences, labels = read_csv(FILE_PATH)
 # for i in range(5):
 #     print(sentences[i], "|", labels[i])
 # data = []
@@ -37,6 +36,6 @@ sentences, labels = read_csv(".//..//490A final project data - mmz Dataset.csv")
 
 with open("fine_tune_data.json", "w", encoding="utf-8") as file:
     for sentence, label in zip(sentences, labels):
-        sentence=re.sub(r"\\.{5}","",sentence)
+        # sentence=re.sub(r"\\.{5}","",sentence)
         data = json.dumps({"translation": {"en": sentence, "emoji": " ".join(label)}})
         file.write(data + "\n")

@@ -17,7 +17,7 @@
 Fine-tuning the library models for sequence to sequence.
 """
 # You can also adapt this script on your own sequence to sequence task. Pointers for this are left as comments.
-
+import csv
 import logging
 import os
 import sys
@@ -324,6 +324,15 @@ def main():
     # Distributed training:
     # The .from_pretrained methods guarantee that only one local process can concurrently
     # download model & vocab.
+    def read_emoji(filepath):
+        with open(filepath, 'r', encoding='utf8') as csv_file:
+            csv_reader = csv.DictReader(csv_file, delimiter=',')
+            emoji_vocab = []
+            for row in csv_reader:
+                for i in range(1, 6):
+                    emoji_vocab.append(row[str(i)])
+        return emoji_vocab
+
     config = AutoConfig.from_pretrained(
         model_args.config_name if model_args.config_name else model_args.model_name_or_path,
         cache_dir=model_args.cache_dir,
@@ -337,6 +346,7 @@ def main():
         revision=model_args.model_revision,
         use_auth_token=True if model_args.use_auth_token else None,
     )
+    # tokenizer.add_tokens(read_emoji(".\\..\\490A final project data - corpus.csv"))
     model = AutoModelForSeq2SeqLM.from_pretrained(
         model_args.model_name_or_path,
         from_tf=bool(".ckpt" in model_args.model_name_or_path),
