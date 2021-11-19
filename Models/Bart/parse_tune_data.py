@@ -18,9 +18,8 @@ def read_csv(filepath):
             if row[LABEL] != '':
                 try:
                     sentences.append(row[SENTENCE])
-                    current_label = [emoji.UNICODE_EMOJI['en'][c] for c in row[LABEL] if c in emoji.UNICODE_EMOJI['en']]
+                    current_label = [c for c in row[LABEL] if c in emoji.UNICODE_EMOJI['en']]
                     labels.append(current_label)
-                    # print(current_label)
                 except IndexError:
                     print(row)
 
@@ -37,7 +36,7 @@ sentences, labels = read_csv(".//..//490A final project data - mmz Dataset.csv")
 
 with open("fine_tune_data.json", "w", encoding="utf-8") as file:
     for sentence, label in zip(sentences, labels):
-        sentence=re.sub(r"\\.{5}","",sentence)
-        print(sentence)
+        # sentence=re.sub(r"\\.{5}","",sentence)
+        # print(sentence)
         data = json.dumps({"translation": {"en": sentence, "emoji": " ".join(label)}})
         file.write(data + "\n")
