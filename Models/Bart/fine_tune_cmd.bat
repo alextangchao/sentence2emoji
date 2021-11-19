@@ -1,1 +1,0 @@
-python .\run_translation.py --model_name_or_path "facebook/bart-base" --do_train --source_lang en --target_lang emoji --source_prefix "translate English to Emoji: " --train_file .\fine_tune_data.json --test_file .\fine_tune_data.json --output_dir .\output --per_device_train_batch_size=2 --overwrite_output_dir --predict_with_generate 

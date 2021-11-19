@@ -3,7 +3,9 @@ import csv
 import emoji
 import re
 
-FILE_PATH = ".\\..\\490A final project data - Emoji-50-467.csv"
+
+DATAPATH = ".\\..\\..\\Data\\"
+FILE_PATH = DATAPATH + "490A final project data - Emoji-50-467.csv"
 SENTENCE = 'senetence'
 LABEL = 'translate'
 

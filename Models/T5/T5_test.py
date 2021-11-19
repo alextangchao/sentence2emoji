@@ -4,7 +4,9 @@ import emoji
 
 # MODEL = "t5-small"
 MODEL = ".\\output\\"
-FILE_PATH = ".\\..\\490A final project data - Emoji-50-467.csv"
+DATAPATH = ".\\..\\..\\Data\\"
+FILE_PATH = DATAPATH + "490A final project data - Emoji-50-467.csv"
+EMOJI_PATH = DATAPATH + "490A final project data - corpus.csv"
 SENTENCE = 'senetence'
 LABEL = 'translate'
 
@@ -51,7 +53,7 @@ def tanslate_one_sentence(sentence):
     model = T5ForConditionalGeneration.from_pretrained(MODEL)
 
     # add emoji vocab
-    tokenizer.add_tokens(read_emoji(".\\..\\490A final project data - corpus.csv"))
+    tokenizer.add_tokens(read_emoji(EMOJI_PATH))
     model.resize_token_embeddings(len(tokenizer))
 
     encoding = tokenizer(f'translate English to Emoji: {sentence}', return_tensors='pt')
@@ -69,7 +71,7 @@ def tanslate_sentence_list(sentence_list):
     model = T5ForConditionalGeneration.from_pretrained(MODEL, local_files_only=True)
 
     # add emoji vocab
-    tokenizer.add_tokens(read_emoji(".\\..\\490A final project data - corpus.csv"))
+    tokenizer.add_tokens(read_emoji(EMOJI_PATH))
     model.resize_token_embeddings(len(tokenizer))
 
     # when generating, we will use the logits of right-most token to predict the next token
