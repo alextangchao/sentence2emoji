@@ -62,8 +62,8 @@ def tanslate_sentence_list(sentence_list):
 
 
 sentences, labels = read_csv(FILE_PATH)
-# tanslate_one_sentence("Nice to see you!")
-translation = tanslate_sentence_list(sentences)
-for index, sentence in enumerate(sentences):
-    print(f'Sentence: {sentence}')
-    print(f"Original labels: {labels[index]}, output labels: '{translation[index]}'")
+tanslate_one_sentence("Nice to see you!")
+# translation = tanslate_sentence_list(sentences)
+# for index, sentence in enumerate(sentences):
+#     print(f'Sentence: {sentence}')
+#     print(f"Original labels: {labels[index]}, output labels: '{translation[index]}'")
