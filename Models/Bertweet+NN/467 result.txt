@@ -1,0 +1,1451 @@
+Sentence: eat then, idiot.
+Original labels: 🍳, output labels: ['🍳', '😂']
+
+Sentence: Loving you and having you  is  the most successful achievement in life ♥️✨
+Original labels: ❤, output labels: ['❤', '🎉', '👉']
+
+Sentence: Imagine not being arab 💀💀😭
+Original labels: 🤔, output labels: ['❌']
+
+Sentence: I’m going to a concert tonight and I’m so nervous🤩
+Original labels: 🎵, output labels: ['🌛', '🎵', '😍']
+
+Sentence: gatekeeping painting…..
+Original labels: 👀, output labels: ['⛪']
+
+Sentence: Not if I see you in water
+Original labels: ❌, output labels: ['👀', '👨', '💦']
+
+Sentence: yowdi i smell small chismis.
+Original labels: 👨, output labels: ['🤮']
+
+Sentence: A lot of them niggas🤧
+Original labels: 😡, output labels: ['😡', '🤮']
+
+Sentence: jeez
+Original labels: 🎉, output labels: []
+
+Sentence: This panther needs Calcium Chloride!
+Original labels: 👨, output labels: ['🍳', '💉', '🤮']
+
+Sentence: feeling so restless
+Original labels: 🤮, output labels: ['💦', '🤮']
+
+Sentence: Mayday ft ____ &amp; _____ - !?  Landing August 10th  🚀🚀🌪🌪  Superrrr gassed for this month 🌛
+Original labels: 👋, output labels: ['🌛', '👍', '🔥']
+
+Sentence: am I a she/they or a they/them. I guess we will never know
+Original labels: 👨, output labels: ['👎', '👩', '🤔', '🤦']
+
+Sentence: That's major improvement
+Original labels: 👍, output labels: ['👍', '😂']
+
+Sentence: I love being out in public and getting compliments from other members of the alphabet mafia :3
+Original labels: 👨, output labels: ['⛪', '❤', '💬']
+
+Sentence: Called it
+Original labels: 👌, output labels: ['👌']
+
+Sentence: I'm like "when can we schedule your euthanasia?"
+Original labels: 🤔, output labels: ['⏰', '📅', '🤔']
+
+Sentence: I need like 3days rest to recover from this past weekend's stress. Back don nearly break.
+Original labels: 👉, output labels: ['👉', '😴', '😷']
+
+Sentence: Who wants to play Fortnite later?
+Original labels: 🤔, output labels: ['🎮', '👉', '🤔']
+
+Sentence: HE GOING TO ESPN?👀👀👀Commentate La Liga
+Original labels: 👨, output labels: ['🎉', '👉', '👨']
+
+Sentence: how are all of you doing today
+Original labels: 👋, output labels: ['👨', '👩', '🤔']
+
+Sentence: Making friends wherever I go, is my favorite part of trips 🌎
+Original labels: 👉, output labels: ['❤', '👉']
+
+Sentence: a lot of y’all need to go get tested
+Original labels: 👨, output labels: ['👉', '👨', '👩', '📖']
+
+Sentence: ok gn
+Original labels: 👌, output labels: ['🌛']
+
+Sentence: How is it August already?!
+Original labels: 👉, output labels: ['👉', '👎', '📅', '😄', '🤦']
+
+Sentence: me just trying to chill despite life constant fucking me over
+Original labels: 👨, output labels: ['👉', '👎', '😄']
+
+Sentence: Fuck ur mama 😣 fuck ur dad 😣
+Original labels: 😡, output labels: ['😡']
+
+Sentence: I miss pang
+Original labels: ❤, output labels: ['❤']
+
+Sentence: If dugg wouldve just not. He would’ve been ok.
+Original labels: 👨, output labels: ['❌', '👨']
+
+Sentence: A lot of y’all worried about the wrong things.
+Original labels: ❌, output labels: ['🤔', '🤦']
+
+Sentence: happy birthday pacar akuuu @/marklee
+Original labels: 🎉, output labels: ['🎉', '📅', '🙏']
+
+Sentence: NY Yankees P Domingo German (shoulder) placed on 10-day IL (08/01)
+Original labels: 🏃, output labels: ['🏃', '📅']
+
+Sentence: My daddy beat hoes for my mama he don’t beat my mama . Big difference
+Original labels: 👨, output labels: ['👉', '👨', '👩', '🤦']
+
+Sentence: After I came to this area there has come up strange tagged signs everywhere.
+Original labels: 👨, output labels: ['🏠', '👉', '👨', '🤦']
+
+Sentence: $15k to save your murderous girlfriend with the bad back???
+Original labels: 💰, output labels: ['👩', '💰']
+
+Sentence: If ESPN FC is the answer , what is the question??
+Original labels: 💼, output labels: ['🤔']
+
+Sentence: mf’s won’t even check on you when they know you going thru it but be quick af to ask for a favor.
+Original labels: 👨, output labels: ['👉', '👨', '💬', '🙏']
+
+Sentence:  Coffee must've stole my phone 
+Original labels: 🤔, output labels: ['👉']
+
+Sentence: 🍭 i maybe omg marius&lt;33!! but inside talaga vyn&gt;&gt;
+Original labels: 🎉, output labels: ['🏃', '👍', '🙏']
+
+Sentence: I don't do that anymore because I know he sees and he will get me what I want😭
+Original labels: 🤦, output labels: ['👀', '👉', '👨']
+
+Sentence: Omg george!! You deserved it!!💙💙 So happy for you 🥺🥺💙💙
+Original labels: 🎉, output labels: ['🎉', '😄']
+
+Sentence: Roses are gold forget me nots are olive sugar be sweet and so on
+Original labels: 🤔, output labels: []
+
+Sentence: My love for you is just like diarrhea, I just can't hold it in.😦😧😍😘
+Original labels: 🎉, output labels: ['🎉', '😄']
+
+Sentence: SILVER MEDAL FOR MYKAYLA!!!  From plane to podium! A PHOENIX FROM THE ASHES!
+Original labels: 🎉, output labels: ['🎉']
+
+Sentence: who is turning 30 this year? I thought dylan was turning 24
+Original labels: 👉, output labels: ['👉', '💔', '📅']
+
+Sentence: it’s already August shit cray.
+Original labels: 👉, output labels: ['🎉', '👉', '📅']
+
+Sentence: Another hour! It's August 01, 2021 at 05:29PM
+Original labels: 👉, output labels: ['⏰', '👉', '📅']
+
+Sentence: Hezbollah: Lebanese government to prosecute and punish perpetrators of Ali Shibli assassination.
+Original labels: ⛪, output labels: ['⛪', '👎', '💀', '🙏']
+
+Sentence: WAIT THIS IS SO PRETTY
+Original labels: 🤔, output labels: ['🎉']
+
+Sentence: Duck til it’s safe to come outside headassss
+Original labels: 🐶, output labels: ['⛪', '🐶', '👀', '👉', '👍']
+
+Sentence: I’m just so not interested these days
+Original labels: 😢, output labels: ['💔', '📅', '😢']
+
+Sentence: You can't stand up for your own Planet you can't stand up for anyting I can't stand you
+Original labels: 🤔, output labels: ['❌', '🏠', '👉', '👨', '🤔']
+
+Sentence: just got glorious lulu i feel like a fairy
+Original labels: 👩, output labels: ['👍', '👩', '🤔']
+
+Sentence: hearing story about david and johnathan in the bible now, they were definitely gay asl
+Original labels: 💬, output labels: ['⛪', '❤']
+
+Sentence: Can't believe this tweet didn't even get 100 likes..... this is a serious TOTY contender
+Original labels: 💬, output labels: ['❌', '❤', '👉', '💬']
+
+Sentence: Our fanbase and reactionism.
+Original labels: 🤔, output labels: ['🤔']
+
+Sentence: I'm gonna play you some.
+Original labels: 🤔, output labels: ['👉']
+
+Sentence: I am not sure what happened but I fell pretty epically going down the stairs and almost smashed my face into the wall? It was uhhh alarming
+Original labels: 🤔, output labels: ['⏰', '💩', '😢', '🤔']
+
+Sentence: it’s ALWAYS the filo kpop stans istg
+Original labels: 🎵, output labels: ['🎵', '👍']
+
+Sentence: Don’t tag your girl for national gf day if you don’t want me to follow her, simple
+Original labels: ❌, output labels: ['❌', '🎮', '👩', '📅']
+
+Sentence: RAN IS GIVING ME SEROTONIN ILY
+Original labels: 💦, output labels: ['👉', '💦', '🤮']
+
+Sentence: All the very best to ur Indian Women's Hockey Team as well for QF. Go for it girls billions of wishes r with u. 🥉🇮🇳🇮🇳🇮🇳🙏🙏🤞🤞
+Original labels: 👩, output labels: ['🎉', '🏃', '👍', '👩']
+
+Sentence: they really removing fleets today … 😵‍💫
+Original labels: ❌, output labels: ['❌', '🏠', '📅', '🤮']
+
+Sentence: Hi guys did u want sum treats
+Original labels: 👋, output labels: ['👋']
+
+Sentence: Nobody knows what's hidden deep inside.   WE WANT SAAKK S2
+Original labels: ❌, output labels: ['❌', '👨', '👩', '🤔', '🤦']
+
+Sentence: Accidentally got a little too baked, per sources
+Original labels: 🔥, output labels: ['🍳', '🔥']
+
+Sentence: Mayweather look like common
+Original labels: 👨, output labels: ['👍', '👨']
+
+Sentence: “we just talked two weeks ago”TWO WEEKS AGO
+Original labels: 👨, output labels: ['💬', '📅']
+
+Sentence: Empire College is a private for-profit phrontistery in Santa Rosa, California.
+Original labels: ⛪, output labels: ['⛪', '👉', '💰']
+
+Sentence: Hmm, perhaps I'll look into what kind of fabric I should order for my kusuriuri cosplay  First I need to learn how kimono patterns work tho
+Original labels: 🤔, output labels: ['👉', '👔', '👻', '🤔', '🤦']
+
+Sentence: It’s August 1st y’all, happy soooky vibezzzz 🧡
+Original labels: 📅, output labels: ['🎉', '📅']
+
+Sentence: Thinking about him again.
+Original labels: 🤔, output labels: ['😣', '🤔']
+
+Sentence: the hidden replies 😭😭 ur a LOSER
+Original labels: ❌, output labels: ['❌', '👀', '💬', '😡']
+
+Sentence: just lied
+Original labels: 😡, output labels: ['💬']
+
+Sentence: . . . really interesting 🧵
+Original labels: 🥰, output labels: ['🥰']
+
+Sentence: We shoulda scored more.😎
+Original labels: 🙏, output labels: ['👉', '🙏']
+
+Sentence: Certainly came close to! Megaten and Persona fans are real mean and weird
+Original labels: 👨, output labels: ['🤦', '🤮']
+
+Sentence: This is the content we love 🤣
+Original labels: 👨, output labels: ['💬']
+
+Sentence: I have been enough to being positive person
+Original labels: 🤦, output labels: ['😄', '🤦']
+
+Sentence: I got trust issues…lol
+Original labels: ❌, output labels: []
+
+Sentence: my phone says i tried to brick mephone, but i never did that!  promise :D
+Original labels: 📱, output labels: ['❌', '👉', '💬', '📱']
+
+Sentence: I’m looking real breedable
+Original labels: 👀, output labels: ['🎵', '👀', '👍']
+
+Sentence: I hope they announce the new Satine understudy too. they  deserve the spotlight too
+Original labels: 🙏, output labels: ['🎉', '👉', '💬', '🙏']
+
+Sentence: Trippy
+Original labels: 🤔, output labels: []
+
+Sentence: LETS GOOO
+Original labels: 🎉, output labels: ['🎉']
+
+Sentence: Knowing a nigga love you but can’t love you properly is a painful situation...😩
+Original labels: 👨, output labels: ['❤', '👉']
+
+Sentence: My journals never did contain any deep thoughts. Just me whining about crap.
+Original labels: 📖, output labels: ['❌', '👩']
+
+Sentence: i have‐
+Original labels: 👉, output labels: ['👉']
+
+Sentence: No excuses. Just results 😎💰
+Original labels: ❌, output labels: ['❌', '👌', '💬']
+
+Sentence: God I love Seb. And I hate that I used to despise him at one point. What an incredible dude, class of the grid
+Original labels: ⛪, output labels: ['⛪', '❤', '👍', '👨']
+
+Sentence: one thing about me, i’m not playing with people’s kids. you better call your ol ma.
+Original labels: 👉, output labels: ['❌', '🎮', '👉', '👨', '💬']
+
+Sentence: What y’all think?
+Original labels: 👉, output labels: ['👉', '🤔']
+
+Sentence: no cuz the rest of the members are on the other side of the skateboard why are the two of them isolated
+Original labels: 👨, output labels: ['❌', '🏃', '👨']
+
+Sentence: every single one but I have a soft spot for m.i.a, neverending story, levanter, slump and side effects
+Original labels: ❤, output labels: ['❤']
+
+Sentence: every second of every minute, every minute of every hour and every hour of every day.
+Original labels: ⏰, output labels: ['⏰', '📅']
+
+Sentence: 🗣IF IT IS DELETED I AINT TWEET IT.
+Original labels: 👉, output labels: ['❌', '👉', '💬', '📱']
+
+Sentence: Ok but Top Cat being my fav character and Thomas Lennon one of my fav actors voicing him omg perfect
+Original labels: ❤, output labels: ['❤', '👍', '👨']
+
+Sentence: pls comment if you do want to join ❤️‍🔥 i'll be creating it once a few more people wanna join
+Original labels: 👨, output labels: ['👉', '👦', '👨', '👩']
+
+Sentence: I’d definitely be for it. He’s clearly better than Chapman.
+Original labels: 👌, output labels: ['👉', '👌', '👍', '👨']
+
+Sentence: Went for a swim but aquafit was in full swing so we had sweet potato fries in the cafe instead.
+Original labels: 👉, output labels: ['🍳', '👉', '👔', '👨', '💦']
+
+Sentence: He hugs the readers leg, snuggly wolf noises.
+Original labels: 👨, output labels: ['👍', '👨']
+
+Sentence: Hello everyone, due to circumstances, drawings will be published less often. :(
+Original labels: 👋, output labels: ['❌', '👉', '👋', '📖']
+
+Sentence: I wanna go to brunch !
+Original labels: 🤔, output labels: ['🍳', '🤔']
+
+Sentence: bitches on youtube when a new variant of covid comes out “covid-19 (slowed + reverbed) 🥀🖤”
+Original labels: 😡, output labels: ['👩', '💉', '😡']
+
+Sentence: Lol sure
+Original labels: 😂, output labels: []
+
+Sentence: Athleticism = inter-muscular coordination   *the ability of the muscles to contract (and relax) in measured harmony*
+Original labels: 🏃, output labels: ['🌛', '🏃', '👍']
+
+Sentence: nba is unwatchable
+Original labels: 🏃, output labels: ['🏃', '👀']
+
+Sentence: She’s good from far but far from good
+Original labels: 👩, output labels: ['👍']
+
+Sentence: sabtu felt like a weekend, ahad feels like pre-monday
+Original labels: 👉, output labels: ['👉', '📅']
+
+Sentence: girl you be killin’ em
+Original labels: 👩, output labels: ['👩', '🤦']
+
+Sentence: the way school makes my anxiety worse, yho ha.a
+Original labels: ⛪, output labels: ['⛪', '👉', '😢']
+
+Sentence: So glad LOONA has learned we don’t follow rules and will record anything
+Original labels: 🙏, output labels: ['❌', '🙏', '🤦']
+
+Sentence: Wanttttt
+Original labels: 🤔, output labels: []
+
+Sentence: Its august 1st 🥳🥳🥳
+Original labels: 📅, output labels: ['🎉', '👉', '📅']
+
+Sentence: trust nobody
+Original labels: ❌, output labels: ['❌', '🎮', '👩']
+
+Sentence: Anyone selling a hard summer ticket for today !!
+Original labels: 💰, output labels: ['🎉', '💰']
+
+Sentence: wedge has an insanity kink
+Original labels: 👨, output labels: ['❌', '👍']
+
+Sentence: Mila said “fuck that cow” 💀
+Original labels: 👩, output labels: ['👎', '👩', '💬', '😡']
+
+Sentence: So Emmanuel still get mind call Liquorose after all the love thing  Fear men 🥱
+Original labels: 👨, output labels: ['❌', '👨', '👩', '📅', '📱']
+
+Sentence: “Fine I’ll just block you and disrespect you from there”  what type of big bitch shit is that? Weak ass energy
+Original labels: ❌, output labels: ['❌', '🍳', '💬', '📱', '😡', '😣']
+
+Sentence: Haven’t been to church since Easter and pastor Raymond was speaking directly to me today . Def needed that
+Original labels: ❌, output labels: ['❌', '🍳', '👉', '📅']
+
+Sentence: I hope y'all are having a lovely weekend!
+Original labels: 🙏, output labels: ['📅', '🙏', '🥰']
+
+Sentence: FELIX UR TOO CUTE STOP IT
+Original labels: 👨, output labels: ['🥰']
+
+Sentence: tell me when it’s over, so then i can try to understand what would’ve just happened.
+Original labels: 💬, output labels: ['👨', '💬', '🤔']
+
+Sentence: “You retweet some good shit man 😂”. I try 🤣🤓
+Original labels: 👉, output labels: ['👉', '👍', '💬']
+
+Sentence: All that shit gone come back and bite you in the ass
+Original labels: 💩, output labels: ['🔥']
+
+Sentence: My hottest farmer fantasy.  I’d be useless on the farm. But I could suck that dick all day while he works.
+Original labels: 🔥, output labels: ['❌', '💩', '🔥']
+
+Sentence: IM AT 620 SINCE WHEN?!?! /pos
+Original labels: 👉, output labels: ['⏰', '👉', '🤔']
+
+Sentence: Y’all hoes fake and then want come be friendly gtf
+Original labels: 👋, output labels: ['⏰', '👋', '😡', '🤔']
+
+Sentence: Fox News: OMG look at all those unvaccinated brown people.   Me: 🤯
+Original labels: 🤔, output labels: ['👉', '💉', '🤔', '🤦']
+
+Sentence: Summer jam finna smack
+Original labels: 🤮, output labels: ['👉', '🤮']
+
+Sentence: Cleaning the kitchen then having to use it is highly annoying
+Original labels: ❌, output labels: ['❌', '💩']
+
+Sentence: Ou idk actually 😭
+Original labels: ❌, output labels: []
+
+Sentence: My og like that’s dead
+Original labels: 😣, output labels: ['💀', '😣']
+
+Sentence: Please don't do this to your children!
+Original labels: ❌, output labels: ['👦', '👨', '👩', '😡']
+
+Sentence: I needed this sleep
+Original labels: 👉, output labels: ['👉', '😴']
+
+Sentence: This nigga sitting across from me don’t even know how bad I wanna ...Fuck it 🤣🤣🤣🤣
+Original labels: 👩, output labels: ['👉', '👍', '👨', '👩', '🤦']
+
+Sentence: T.G.I. Friday’s is camp
+Original labels: 👍, output labels: ['⛪', '🍳']
+
+Sentence: Happening already
+Original labels: 🏃, output labels: ['👉', '📅']
+
+Sentence: im gonna try and make a carrd, wish me luck 🙏
+Original labels: 👉, output labels: ['👉', '🙏']
+
+Sentence: mishuuuu
+Original labels: ❤, output labels: []
+
+Sentence: living with me is randomly hearing me making zombie noises from call of duty
+Original labels: 🎮, output labels: ['🎮', '👎', '💀', '💬']
+
+Sentence: how about.... just stop shipping real people 😭
+Original labels: ❌, output labels: ['❌', '💰']
+
+Sentence: Once you get used to the luxurious lifestyle there is no going back.
+Original labels: 👉, output labels: ['❌', '👉', '💰']
+
+Sentence: fucked up my grammar what am i saying
+Original labels: ❌, output labels: ['❌', '👉', '💬']
+
+Sentence: When ethereum is 20k and Evols floor is 100eth you will think, damn. I should have listened to denzuul.
+Original labels: 👉, output labels: ['❌', '👉', '💬', '💰']
+
+Sentence: I can't think of something else bc I'm tired but that one dynamite dance video sent through the roof
+Original labels: 🤔, output labels: ['🏃', '👍', '🤔']
+
+Sentence: I understand
+Original labels: 👌, output labels: []
+
+Sentence: closed
+Original labels: ❌, output labels: []
+
+Sentence: They can’t risk him sayin some more country ass dumb shit 😂😂😂
+Original labels: ❌, output labels: ['💩', '💬', '😂']
+
+Sentence: his tattoos are really beautiful 😭
+Original labels: 👍, output labels: ['❌', '👍']
+
+Sentence: everybody dies top 3 maybe
+Original labels: 👨, output labels: []
+
+Sentence: bg been real ghetto the past couple days😭😭😭
+Original labels: 💩, output labels: ['🏠', '💩', '📅']
+
+Sentence: US: "Let's hope Colorado doesn't burn again like last year!"  Mother nature: "wish granted"
+Original labels: 👉, output labels: ['🏠', '👉', '🔥']
+
+Sentence: My disappointment is immeasurable and my day is ruined
+Original labels: 😢, output labels: ['😢', '😴']
+
+Sentence: Chase's Korean Name : Park byeon sim
+Original labels: 🤦, output labels: ['🤦']
+
+Sentence: It be funny when mfs think they hurting you and ain’t🥴 mad ass.
+Original labels: 😂, output labels: ['👉', '🔥', '😂']
+
+Sentence: Hits so close to home😭
+Original labels: 🤔, output labels: ['🏠', '👉']
+
+Sentence: i just want japan to win this pls :( love the team so much (and france too of course why is it at 2 am 🤠)
+Original labels: 👨, output labels: ['👍', '👨', '🙏']
+
+Sentence: Emery is the 🐐 fam😂😂😂😂
+Original labels: 👩, output labels: ['👍', '👩', '🔥']
+
+Sentence: Every painter was rarely an artist.
+Original labels: 👨, output labels: ['❌', '👨', '📖']
+
+Sentence: Youngboy is objectively a top 10 rapper of all time and no one can't tell me otherwise
+Original labels: 👨, output labels: ['🎵', '👍', '👨', '📅']
+
+Sentence: niggas be just as obsessed with celebrities don’t let em fool you..
+Original labels: 🎵, output labels: ['❌', '🎵', '💬', '😡']
+
+Sentence: Although, I may end up getting in the way instead-- as usual!
+Original labels: 🤦, output labels: ['👎', '🤔', '🤦']
+
+Sentence: omgggg ???? let’s goooo
+Original labels: 🎉, output labels: ['🎉', '🏃', '👉']
+
+Sentence: imagine being single on national gf day LMAO
+Original labels: 🤔, output labels: ['👩', '🤔', '🤦']
+
+Sentence: I feel like I'm always just shouting into the void cause no algorithm deems me worthy enough to share my shit to anyone
+Original labels: ❌, output labels: ['❌', '👉', '💩', '💬']
+
+Sentence: This.
+Original labels: 👉, output labels: ['👉']
+
+Sentence: Happy 8k followers to you!. Avail her contents and VCs
+Original labels: 🎉, output labels: ['🎉', '🏃', '👉', '💬']
+
+Sentence: GUY.exe
+Original labels: 👨, output labels: []
+
+Sentence: Where are all the gay identifying Olympic quality swimmers and/or lifeguards who are currently single?  I am also single.  So uh...  👀 👉🏻👈🏻
+Original labels: 👨, output labels: ['❤', '🏃', '👉', '👨', '💦']
+
+Sentence: tr plushies have me ugly laughing 😭
+Original labels: 🤮, output labels: ['😂', '😢', '🤮']
+
+Sentence: I’m really the most dramatic person ever . I be cracking myself tf up cause it’s like second nature now , I don’t do it on purpose at all ☠️
+Original labels: 👍, output labels: ['❌', '👌', '👍', '👨', '💬']
+
+Sentence: Mikel Arteta on Thomas Partey’s injury: "I just had a talk with the doc. He'll have a scan tomorrow. At the moment it's not looking good."
+Original labels: 👨, output labels: ['👉', '👨', '💬', '💼']
+
+Sentence: Enzo is such a happy baby.. always smiling 💙 mommy’s boy 4L ✨
+Original labels: 👨, output labels: ['👨', '😄']
+
+Sentence: I really need a day in between Sunday and Monday🥲
+Original labels: 👉, output labels: ['👉', '📅']
+
+Sentence: emma stone is a very entertaining white woman im kinda obsessed
+Original labels: 👍, output labels: ['👍', '👩']
+
+Sentence: Y’all need y’all ass beat
+Original labels: 😡, output labels: ['👨', '👩', '😡']
+
+Sentence: If Partey is out long term, we’re gonna have a Xhaka-Elneny pivot vs Chelsea and Man City 😭😭😭
+Original labels: 👨, output labels: ['⛪', '❌', '👀', '👨', '📅']
+
+Sentence: i need to catch up with tdj
+Original labels: 👉, output labels: ['👉']
+
+Sentence: I can’t believe this is real
+Original labels: 🤦, output labels: ['😂', '🤦', '🤮']
+
+Sentence: so ppl still hawking godz in July rethink ur morals ✊🏿🤡
+Original labels: 🎉, output labels: ['🎉', '👍', '👻', '📅']
+
+Sentence: I will drop $1k to play some blockchain games with P2E element  Shill me your favorite ones^^
+Original labels: 🎮, output labels: ['❤', '🎮', '👉', '💬']
+
+Sentence: people who order sparkling water are pretentious
+Original labels: ❤, output labels: ['👍', '💦']
+
+Sentence: This heart can’t take no more.
+Original labels: 💔, output labels: ['👉', '💔']
+
+Sentence: Death Counter 237
+Original labels: 👻, output labels: []
+
+Sentence: As it turns out, closing schools and masking kids when adults have access to vaccines is BAD FOR KIDS!
+Original labels: ❌, output labels: ['⛪', '❌', '👎', '💰', '🤦']
+
+Sentence: I would acc be plotting to set you up for murder like gone girl or finding a way to shag ur dad each to their own
+Original labels: 💀, output labels: ['🏃', '👉', '👩', '💀']
+
+Sentence: This the mf one.
+Original labels: 😡, output labels: ['😡']
+
+Sentence: wait it’s almost been a year since quackity joined the dream smp right
+Original labels: 👉, output labels: ['🎉', '🏃', '👉']
+
+Sentence: No one knows what you feel inside
+Original labels: ❌, output labels: ['🤔']
+
+Sentence: I’m in love.
+Original labels: 👉, output labels: ['❤', '👉']
+
+Sentence: trying to talk abt genshin w friends who dont play and having to say "water, ice, earth" when referring to visions
+Original labels: 💬, output labels: ['👀', '👉', '💦', '💬']
+
+Sentence: Dubai is making artificial rain, what’s your country making...?
+Original labels: ⛪, output labels: ['⛪', '👉', '💦', '📱']
+
+Sentence: No one can wreck a happy home except the ppl in it. 😎
+Original labels: 👨, output labels: ['❤', '🏠', '👍', '👦', '👨', '👩']
+
+Sentence: i feel sorry for my parents because they have a child who is obsessed with billie eilish
+Original labels: 😢, output labels: ['❤', '👉', '👦', '👨', '👩', '😢']
+
+Sentence: My friends are so pretty like wow
+Original labels: 👨, output labels: ['🎉', '🙏']
+
+Sentence: We supposed to be planning a trip they in this mf flaming😂😂😂
+Original labels: 👨, output labels: ['🏃', '👦', '👨', '👩']
+
+Sentence: Fake news!
+Original labels: ❌, output labels: ['😡']
+
+Sentence: Love to see it 😍
+Original labels: 🥰, output labels: ['👀', '👉', '🥰']
+
+Sentence: When you realize starfish eat sponges. Spongebob becomes a horror movie, with Patrick playing the long con.
+Original labels: 🤔, output labels: ['👻']
+
+Sentence: I can't flirt so any men interested in me please make the first move. Like right now. I'm ready!! Maybe.   FEED ME AND TELL ME I'M PRETTY!
+Original labels: ❌, output labels: ['❌', '❤', '👋']
+
+Sentence: There better not be any women working at the t mobile store today
+Original labels: ❌, output labels: ['⛪', '❌', '👩', '💼']
+
+Sentence: Already sunday evening. 😭 I want my weekend back!
+Original labels: 📅, output labels: ['⏰', '👉', '📅']
+
+Sentence: Still availableeee🤗   Dye version C and D are SOLD❌
+Original labels: 👍, output labels: ['👉', '👍', '💰']
+
+Sentence: anyways fuck park hye soo 🙏🙏 hope her new indie movie flops
+Original labels: 🤔, output labels: ['👨', '😡', '🙏']
+
+Sentence: Are you the sun? Because I'm always looking for you
+Original labels: 👉, output labels: ['🌞', '👀', '👉', '👩']
+
+Sentence: Ohhh that’s gross lmaoo
+Original labels: 🤮, output labels: ['😂', '🤮']
+
+Sentence: In that recent Vegas picture..lera needa keep them legs closed ,especially around corbyn😭
+Original labels: 👀, output labels: ['⛪', '👀', '👍']
+
+Sentence: mylenium 💙 1989 🖤
+Original labels: ❤, output labels: ['❤']
+
+Sentence: i just farted
+Original labels: 🤮, output labels: ['🤮']
+
+Sentence: //Gonna start making people call me Conner and not Dariana 😊
+Original labels: ❤, output labels: ['❤', '🎉', '👉', '👨']
+
+Sentence: Why Do I know these videos by heart 😂
+Original labels: 💼, output labels: ['❤', '💼', '😂']
+
+Sentence: If you’re dirty, just say that.
+Original labels: 👉, output labels: ['👉', '💬', '🤮']
+
+Sentence: Madam Sakura, not to speak out of position, but...  /Please/ behave yourself.
+Original labels: 👩, output labels: ['👩', '💬', '🙏']
+
+Sentence: Hey are you my assignment that is due? Pannanum thonudu, ana innum panna mudila😌
+Original labels: 👉, output labels: ['👩', '📅']
+
+Sentence: Native 4K at 120 fps… jesusssss 🔥🔥🔥🔥🔥
+Original labels: 👍, output labels: ['👍', '📱', '🔥']
+
+Sentence: I'll be realistic and write my own ideas: The biggest reason Afghanistan is in this situation is the U.S.
+Original labels: 🤔, output labels: ['😴', '🤔']
+
+Sentence: I created a monster 🤦🏻‍♀️
+Original labels: 👉, output labels: ['👉', '👩', '👻', '💰', '🤦']
+
+Sentence: Boomer hiring managers pay exorbitant fees to access premium features.
+Original labels: 👉, output labels: ['👉', '👨', '💼']
+
+Sentence: Does anyone trade with interactive brokers? And what’s been your experience?
+Original labels: 🤔, output labels: ['👨', '💰', '🤔']
+
+Sentence: WE ARE FAMILY WITH 2 DIFFERENT LANGUAGE,FIRST ADMIN WILL TALK IN WITH ENGLISH AND SECOND ADMIN WILL TALK WITH INDONESIAN LANGUAGE. ^^
+Original labels: 👨, output labels: ['👦', '👨']
+
+Sentence: Poor Leadership.
+Original labels: 👎, output labels: ['👎', '💼']
+
+Sentence: * YOU'LL BE INCINERATED BY THESE JETS OF FIRE!!
+Original labels: 👉, output labels: ['👉', '🔥']
+
+Sentence: 😴😴😴.... I hate coffee but I had some this morning and still nothing. I feel exhausted today. 😣
+Original labels: 😣, output labels: ['👉', '💦', '💬', '🔥', '😣', '😷']
+
+Sentence: That's your dream? Aim higher babe
+Original labels: 🤔, output labels: ['🤔', '🥰']
+
+Sentence: Just be proud of yourself &amp; see good things &amp; hear good things. Hope you never sad. troyesivan
+Original labels: 👉, output labels: ['🎉', '👉', '👍']
+
+Sentence: Totally argee on this..
+Original labels: 👍, output labels: ['👍']
+
+Sentence: WHAT A RACEEE 🔥🔥🔥
+Original labels: 👍, output labels: ['👍']
+
+Sentence: Proper December vibes.
+Original labels: 👎, output labels: ['👎', '📅']
+
+Sentence: Bruh. I’m ready for Jay to wake up and FaceTime me. I miss him 🥺😭
+Original labels: 👀, output labels: ['❤', '👀', '👨']
+
+Sentence: I agree.
+Original labels: 👍, output labels: []
+
+Sentence: That engagement shit a facade . Hit my joint on Twitter and asked her if she really getting married she said   nah probably not
+Original labels: 😡, output labels: ['👎', '👩', '💩', '😡', '🤮']
+
+Sentence: She’s likely never dealt with basically a hermit before 💢
+Original labels: 👩, output labels: ['❌', '👩', '😡']
+
+Sentence: dude i am deadass thinking of going to a community college for art music or writing
+Original labels: 👎, output labels: ['⛪', '👎', '📖', '🤔']
+
+Sentence: someone wish this man happy birthday
+Original labels: 🙏, output labels: ['🎉', '📱', '😂', '🙏']
+
+Sentence: If I go home for Christmas I might just stay here for my bday then idk I have six months to figure it out
+Original labels: 👉, output labels: ['🏠', '👉', '📅', '🤦']
+
+Sentence: Worth a look!
+Original labels: 👍, output labels: ['👀', '👉', '👍']
+
+Sentence: follow her or else😤
+Original labels: 🏃, output labels: ['🏃', '👩']
+
+Sentence: You can get into trouble for all kinds of unexpected things these days.
+Original labels: 👉, output labels: ['🎉', '💩', '📅']
+
+Sentence: My family spoils my daughter so much and girl ain’t even here yet 😭
+Original labels: 👨, output labels: ['👦', '👨', '👩']
+
+Sentence: Do y’all understand how fast whoever made the meme of this had to be to catch it at this perfect moment 😂😂😂
+Original labels: 🤔, output labels: ['😂', '🤔']
+
+Sentence: SOLAR POWER MONTH OMFG🌞🌞🌞🌞
+Original labels: 🌞, output labels: ['🔥']
+
+Sentence: im fucking bored
+Original labels: 🤮, output labels: ['😣', '😴', '🤮']
+
+Sentence: Today is going to be a 2hr long episode 💉💉💉💉💉💉💉💉
+Original labels: 😴, output labels: ['💉', '😴']
+
+Sentence: WHITe BOY TRY TO SELL ME VLONE LIL BOY LEAVE ME ALONE
+Original labels: 😡, output labels: ['😡']
+
+Sentence: fighting the urge to text all my friends happy national gf day
+Original labels: 🏃, output labels: ['🎉', '🏃']
+
+Sentence: Anyway, what do you want? You want to challenge me or something? …I hate to say it, but I'm not in the mood for a battle now.
+Original labels: 😡, output labels: ['❌', '😡']
+
+Sentence: what’s going on 😟😟
+Original labels: 🤔, output labels: ['🤔']
+
+Sentence: Fuck man everything hurts
+Original labels: 💔, output labels: ['💔']
+
+Sentence: Don't forget that my heart once yours and your place will never be replaced but in this lifetime, our story doesn't meant to last.
+Original labels: ❤, output labels: ['❤', '😍', '😴', '🥰']
+
+Sentence: Back to square one. We need Werner to fckin score man.
+Original labels: 🔥, output labels: ['🔥']
+
+Sentence: YOU CHAT TOO MUCH
+Original labels: 💬, output labels: ['🍳', '💬', '📱', '😡']
+
+Sentence: some people are disgusting
+Original labels: 👨, output labels: ['👉', '🤮']
+
+Sentence: I JUST TELL IT LIKE IT IS
+Original labels: 😄, output labels: ['😄', '🤦', '🤮']
+
+Sentence: will magnesium citrate make u bloat like laxatives?
+Original labels: 🤔, output labels: ['🤔']
+
+Sentence: Fuck the democrat secret police. Defund the FBI NOW!
+Original labels: 😡, output labels: ['📅', '😡']
+
+Sentence: Time dose not change people, time reveals the real face of people . 🤷🏻‍♀️
+Original labels: ⏰, output labels: ['⏰', '❌', '👨']
+
+Sentence: the way all these festivals are going to spread the variant at super speed
+Original labels: 🎉, output labels: ['🎉', '🏃']
+
+Sentence: Gift of life
+Original labels: 🎉, output labels: ['🎉', '😄']
+
+Sentence: Ooh what should I wear”-me, the person spending the entirety of the day in their house doing chores and making food
+Original labels: 👔, output labels: ['🍳', '🏠', '👔', '🤔']
+
+Sentence: english song 👀👀
+Original labels: 🎵, output labels: ['🎵']
+
+Sentence: Lowkey 🎶
+Original labels: 🎵, output labels: []
+
+Sentence: Don’t screw with me. \nI will cry.
+Original labels: 😡, output labels: []
+
+Sentence: Old people be so funny on Facebook. They really don’t belong on there to begin with 😩🤣.
+Original labels: 😂, output labels: ['😂', '🤦']
+
+Sentence: Everything is coming to the light omgggg
+Original labels: 😂, output labels: ['😂', '😄']
+
+Sentence: It seems we both refuse to die!
+Original labels: 😄, output labels: ['😂', '😄']
+
+Sentence: THIS WAS ME WITH DEMON SLAYER HAHAHA
+Original labels: 👻, output labels: ['👻', '😂', '😄']
+
+Sentence: I don't know why I have the ticket of my first Daewoo ride still in my wallet
+Original labels: 🤔, output labels: ['😂', '🤔']
+
+Sentence: how you a grown ass man and bike? grow up
+Original labels: 😡, output labels: ['🤔']
+
+Sentence: The last time you had subway
+Original labels: 🤮, output labels: ['⏰', '🍳', '🤮']
+
+Sentence: Yuhuuu cant wait❣️
+Original labels: 😄, output labels: ['😄', '🥰']
+
+Sentence: it's so hot that not even watermelon can refresh me
+Original labels: 🔥, output labels: ['🌞', '💦', '🔥']
+
+Sentence: I was coming up with a story concept the other day and now I'm realizing it's literally just Sonny Boy
+Original labels: 🤔, output labels: ['📅', '😂', '🤔']
+
+Sentence: I cried and i look like shit
+Original labels: 😢, output labels: ['👉', '😢', '😣']
+
+Sentence: OMG TBERE ARE FIDGET SPINNERS AT SEVEN ELEVEN WHO WANT OME!?????
+Original labels: 😍, output labels: ['😍', '🤔']
+
+Sentence: im so ia these few days😭
+Original labels: 😢, output labels: ['📅', '😢']
+
+Sentence: I’m done arguing with blackhawks fans who want Seth Jones to suck. That is my promise to you all
+Original labels: 😡, output labels: ['👎', '😡']
+
+Sentence: Always a fan from ‘Cuse time. So smooth!
+Original labels: 🥰, output labels: ['👍', '🥰']
+
+Sentence: Shit ain’t sweet I’m not showing no love .fuck on
+Original labels: 💩, output labels: ['👋', '💩']
+
+Sentence: Amazing Firework mishap  8 am in Max and Erma's. Sydney Brannon reporting for Stock Market station.
+Original labels: 🎉, output labels: ['⏰', '⛪', '🎉']
+
+Sentence: Meow!
+Original labels: 🐶, output labels: ['🐶', '👉']
+
+Sentence: whole tl fighting
+Original labels: 🔥, output labels: ['🔥']
+
+Sentence: Arsenal make me sick
+Original labels: 🤮, output labels: ['👉', '💉', '🤮']
+
+Sentence: Being hungover ain’t it bro 😐
+Original labels: 😢, output labels: ['😢']
+
+Sentence: I have anxiety at my parents house and that’s okay. They remind me of dreams they had for me
+Original labels: 😣, output labels: ['🏠', '👦', '👨', '👩', '😣', '🤔']
+
+Sentence: the loafers …. i need them
+Original labels: 🙏, output labels: []
+
+Sentence: Hey go touch butts with a putride fetus Bella Medina!
+Original labels: 😂, output labels: ['😂']
+
+Sentence: Don’t shoot.
+Original labels: ❌, output labels: ['❌', '🙏']
+
+Sentence: I need this skin too
+Original labels: 😂, output labels: ['😂', '🙏']
+
+Sentence: can’t expect honesty from someone who can’t even b honest w themselvesssss
+Original labels: 🤮, output labels: ['🤮']
+
+Sentence: Went to the field hockey finals in Montreal. Full of India fans. But India didn’t make it.
+Original labels: 🏃, output labels: ['🍳', '🏃', '😂']
+
+Sentence: She got sooooo mad at me while I was putting the flamingo costume on her. Then she seemed pleasantly intrigued while wearing it.
+Original labels: 👩, output labels: ['👩', '😂', '😄']
+
+Sentence: twitter really allow niggas to convince themselves they smart . i miss real life
+Original labels: 📱, output labels: ['💬', '📱', '😂']
+
+Sentence: I don’t do the drama! Mfs be actually old and messy. I don’t like that
+Original labels: ❌, output labels: ['❌', '😡', '😣']
+
+Sentence: Allure is timeless
+Original labels: 🔥, output labels: ['⏰', '🔥']
+
+Sentence: New Jerseyans do NOT know how to make cakes.
+Original labels: 🤮, output labels: ['❌', '🤦', '🤮']
+
+Sentence: then you say
+Original labels: 👨, output labels: []
+
+Sentence: How can people even Compare Billie and Nirvana.
+Original labels: 🤔, output labels: ['👩', '🤔']
+
+Sentence: still working on my obliques but that’s been a process LMAO
+Original labels: 💼, output labels: ['⏰', '💼', '😂']
+
+Sentence: RTÉ hate the Dublin football team and you love to see it 😂😂😂
+Original labels: 😡, output labels: ['👀', '👨', '😡']
+
+Sentence: Just have to get it right once 🙏🏽
+Original labels: 🙏, output labels: ['👌', '😣', '🙏']
+
+Sentence: How do you expect to see me happy when you stole my happiness away?
+Original labels: 😡, output labels: ['👉', '💔', '😄', '😡']
+
+Sentence: I don’t fuck with fashion nova you know
+Original labels: 😂, output labels: ['😂', '🤦']
+
+Sentence: If you're on my new snapchat acc, Im deeply sorry😭
+Original labels: 📱, output labels: ['📱', '😂']
+
+Sentence: THIS IS MY HEADER WAIT OMF
+Original labels: 😂, output labels: ['😂']
+
+Sentence: HELP
+Original labels: 🙏, output labels: []
+
+Sentence: i fell in love but its okay cause we in love✋😣
+Original labels: ❤, output labels: ['❤']
+
+Sentence: A TWERK UNIT HAS SUCCESSFULLY MADE CHINA AND BRAZIL ITS OTP.
+Original labels: 👍, output labels: ['👍', '🔥']
+
+Sentence: this could be a tweet
+Original labels: 👉, output labels: ['👉', '💬', '📱']
+
+Sentence: Try making a violet carolingian work with bile!
+Original labels: 💼, output labels: ['💼']
+
+Sentence: my edit almost done! *snorts*
+Original labels: 😄, output labels: ['😄']
+
+Sentence: That eyebrow cut tho
+Original labels: 👀, output labels: ['👀', '😂']
+
+Sentence: My birthday is in a week and a half, I better be getting carried out the club
+Original labels: 🎉, output labels: ['🎉', '👉', '📅', '😢']
+
+Sentence: Short story
+Original labels: 📖, output labels: []
+
+Sentence: New month, let’s go crazy
+Original labels: 📅, output labels: ['📅', '🔥', '😄']
+
+Sentence: i’m so sorry :(
+Original labels: 😢, output labels: ['😢', '😣']
+
+Sentence: MARK'S REACTION LOL
+Original labels: 😂, output labels: ['👍', '😂', '😄']
+
+Sentence: THE SHOES omg i LOVE IT
+Original labels: 👔, output labels: ['👔', '😂', '😄', '😍']
+
+Sentence: I want some hot ass chicken 😂😂
+Original labels: 😍, output labels: ['🍳', '🔥']
+
+Sentence: If I’m motivated just go away leave me by my own ⛓
+Original labels: 🏃, output labels: ['🏃', '👋']
+
+Sentence: teach me how to be okay,i dont wanna downplay my emotions
+Original labels: 😣, output labels: ['👌', '💔', '😢', '😣']
+
+Sentence: i literally look so disgusting i wanna kill myself why do i loo liek this
+Original labels: 😣, output labels: ['👩', '💀', '🤔', '🤮']
+
+Sentence: Nahh I hope KW rotts in hell, wtf is wrong with this man
+Original labels: 🙏, output labels: ['👨', '💀', '🙏']
+
+Sentence: Boo, and I cannot stress this enough, fucking hoo.
+Original labels: 😣, output labels: ['😣', '😴']
+
+Sentence: What's the point of paying for health insurance if you're still going to be in massive debt if you get sick? What is my money going to?
+Original labels: 🤔, output labels: ['👉', '💰', '🤔']
+
+Sentence: Beautiful Mark jumps over Laura.
+Original labels: 👨, output labels: ['🏃', '👩']
+
+Sentence: - these folks can only see me virtually .. 🤑‼️
+Original labels: 👨, output labels: ['👀', '👉', '👨', '😂']
+
+Sentence: sp's fanservice is just superior, literally the only thing i can thank them for aside from animation
+Original labels: 👍, output labels: ['👍', '💬', '😍']
+
+Sentence: is there any updates on lewis?
+Original labels: 🤔, output labels: ['💬', '🤔']
+
+Sentence: oh mygod
+Original labels: 😄, output labels: ['🔥', '😄']
+
+Sentence: i miss gfriend tonight
+Original labels: 😍, output labels: ['😴']
+
+Sentence: i don’t even know what was this supposed to prove like
+Original labels: ❌, output labels: ['🤔']
+
+Sentence: Is working at the mall boring?\nYou kinda just watch tons of people walk by the store and hope for them to walk in yours.
+Original labels: 🤔, output labels: ['🏃', '🙏', '🤔']
+
+Sentence: Sanchos mother watching him play this season at United.
+Original labels: 👩, output labels: ['🏃', '👦', '👨', '👩']
+
+Sentence: Take notes for how the cathedral operates and how effective its tactics are.
+Original labels: 📖, output labels: ['📖']
+
+Sentence: All deez look good n all, but nobody trained to stick da landing?
+Original labels: 👨, output labels: ['👍', '👨', '🤔']
+
+Sentence: I love my bestfriend
+Original labels: 🥰, output labels: ['❤', '👩']
+
+Sentence: So if you can help me with my social media &amp; PR life or know someone, please drop a comment. I need to take it serious.
+Original labels: 🙏, output labels: ['👉', '💬', '📱', '🙏']
+
+Sentence: I fell down inside my room today, landed on my butt, nobody to tell me sorry 😭😭\nGod epp me say no be on top sharp objects 😳😂😂
+Original labels: 😣, output labels: ['💬', '😂', '😢', '😣']
+
+Sentence: I knew what I was getting into. And I won't turn back now.
+Original labels: 🤔, output labels: ['👋', '🤔']
+
+Sentence: She pretty and she paid
+Original labels: 👩, output labels: ['👩', '💰']
+
+Sentence: One Tweet
+Original labels: 💬, output labels: []
+
+Sentence: I really love how everyday there seems to be a new reaction image of Dante that I can use and Im just like yeessss brooo give me that shit
+Original labels: ❤, output labels: ['❤', '💩', '📱', '🔥', '😄']
+
+Sentence: Man off the match richard ofori
+Original labels: 👨, output labels: []
+
+Sentence: saturday
+Original labels: 📅, output labels: []
+
+Sentence: no one tell erica sullivan about rosmello
+Original labels: ❌, output labels: ['❌', '💬']
+
+Sentence: I was cheking on my old @ and the typo and how young I was makes so embarrassing to see the dms like 13 years old me sucked
+Original labels: 📱, output labels: ['📱', '😂', '🤦']
+
+Sentence: weirdos
+Original labels: 🤮, output labels: []
+
+Sentence: Never tf again
+Original labels: 😣, output labels: ['🔥']
+
+Sentence: tteokminnie do u like aussies be honest
+Original labels: 🤔, output labels: ['😄', '😍', '🤔']
+
+Sentence: Tweetless today 🌚
+Original labels: ❌, output labels: ['💬', '📅', '📱']
+
+Sentence: the new season of obx is so good
+Original labels: 📱, output labels: ['👍', '📱', '🔥']
+
+Sentence: my brother just punched a hole in my door😂😂👍
+Original labels: 👨, output labels: ['👨', '😂']
+
+Sentence: I CNAT TAKE THIS WTF
+Original labels: 🤮, output labels: ['❌', '💩', '🤮']
+
+Sentence: I wasn’t meant to have a normal life or be close to ppl idk why
+Original labels: 😢, output labels: ['😢', '🤔']
+
+Sentence: Y'all mind if I crack an edgy joke?
+Original labels: 🤔, output labels: ['😄', '🤔']
+
+Sentence: LMAOOOOO no way 😭 why
+Original labels: 😂, output labels: ['😂']
+
+Sentence: agreed but sadly now so many players are playing for the almighty dollar and not the love of the game
+Original labels: 👍, output labels: ['🏃', '👍', '👎', '💰']
+
+Sentence: why he pop the suns like a perc then?
+Original labels: 🌞, output labels: ['🌞', '📅', '🤔', '🤮']
+
+Sentence: Who wants to make eye contact
+Original labels: 🤔, output labels: ['👀', '🤔']
+
+Sentence: The tamale man outside and I don’t have NO cash 🥲
+Original labels: 👨, output labels: ['❌', '👨', '💰']
+
+Sentence: Never
+Original labels: ❌, output labels: []
+
+Sentence: I need the Best Actor oscar because of my perfect selection of 2-for-1 cocktails lads
+Original labels: 🙏, output labels: ['👍', '😂', '🙏']
+
+Sentence: coughs. hello, I'm bisexual.
+Original labels: 😂, output labels: ['👋', '👩', '😂']
+
+Sentence: What a beautiful little girl.
+Original labels: 👩, output labels: ['👍']
+
+Sentence: i want a physical book bc i really can’t push myself to read on my phone
+Original labels: 📖, output labels: ['👀', '📖', '🤦']
+
+Sentence: GOODMORNING day 2 here we go
+Original labels: 🌞, output labels: ['🌞', '🏃', '📅']
+
+Sentence: You sure say she get danfo money for hand ni
+Original labels: 👌, output labels: ['👩', '💰']
+
+Sentence: I’m so sick of myself
+Original labels: 😣, output labels: ['😷']
+
+Sentence: miipan is literally INSANE
+Original labels: 🔥, output labels: ['🔥']
+
+Sentence: Hearing Hatikvah sung strikes pride in every Jewish heart.
+Original labels: 🎵, output labels: ['❤', '🎵', '👉']
+
+Sentence: Yeah right little things matter
+Original labels: 👌, output labels: ['👍']
+
+Sentence: Now playing Self Control by Laura Branigan!
+Original labels: 🎵, output labels: ['🎵', '👉', '👩', '🔥']
+
+Sentence: I’m so chill bruh
+Original labels: 😄, output labels: ['😄']
+
+Sentence: Lizzy n Isaac surprised us at hard yesterday 🥺🥺🥺
+Original labels: 👩, output labels: ['👩', '📅', '😍']
+
+Sentence: Oh, what?
+Original labels: 🤔, output labels: ['🤔']
+
+Sentence: I’ll never let go Jack!
+Original labels: 😍, output labels: ['😂', '😄']
+
+Sentence: in heels up the stairs
+Original labels: 🙏, output labels: ['🏃', '🙏']
+
+Sentence: mO RAN STOP PLS
+Original labels: 🏃, output labels: ['❌', '🏃', '🙏']
+
+Sentence: He's so brave, I'll be a very proud friend he'll have:&gt;
+Original labels: 👨, output labels: ['👍', '👨', '😍']
+
+Sentence: Hot bitches sleep with makeup that magically disappears next morning
+Original labels: 🔥, output labels: ['❌', '🌞', '👩', '🔥']
+
+Sentence: omg  a
+Original labels: 😂, output labels: []
+
+Sentence: I have to shit real bad lol
+Original labels: 😣, output labels: ['👎', '😣']
+
+Sentence: he’s in his red era😭❤️
+Original labels: 👨, output labels: ['❤', '👉', '👨']
+
+Sentence: nothing feels the same but when it goes ..... SALT AIR
+Original labels: 😣, output labels: ['😢', '😣']
+
+Sentence: Sometimes I wish I were a little kid again, skinned knees are easier to fix than broken hearts
+Original labels: 🙏, output labels: ['👨', '🙏']
+
+Sentence: Salut 🤡🤡
+Original labels: 👻, output labels: ['👻']
+
+Sentence: what’s a very solid place to get piercings in Houston?
+Original labels: 🤔, output labels: ['⛪', '👉', '🤔']
+
+Sentence: what’s my brand
+Original labels: 🤔, output labels: ['👉']
+
+Sentence: ya know I think my favorite thing about life is when you ask God for a sign and he gives you exactly what you need
+Original labels: 😍, output labels: ['💬', '😍', '🙏', '🤔']
+
+Sentence: Mmmm stockings and arm warmers. These make everyone 10x hotter.
+Original labels: 👨, output labels: ['🔥']
+
+Sentence: Oh my
+Original labels: 😂, output labels: ['🔥', '😂', '😄']
+
+Sentence: 💀 I really always thought it was “Belks”
+Original labels: 💬, output labels: ['💬']
+
+Sentence: never seen a good looking genderfluid person 🙄
+Original labels: ❌, output labels: ['❌', '👀', '👍', '👨']
+
+Sentence: Drop handles and follow me for quick follow back 👇🔥🏓
+Original labels: 🏃, output labels: ['👉', '🔥']
+
+Sentence: IM CRYING WHY THE FUCK
+Original labels: 😢, output labels: ['😢', '😣', '🤔']
+
+Sentence: brendon urie queen of k-pop
+Original labels: 👍, output labels: ['🎵', '👍', '👩', '🔥']
+
+Sentence: I adore you, my Goddess of Love!! 🙌🏻😻💖🐚
+Original labels: 😍, output labels: ['❤', '👩', '😍']
+
+Sentence: I’m glad I went outside last night even though I was tired.
+Original labels: 🏃, output labels: ['🌛', '🏃', '😴']
+
+Sentence: ♪You did a good job\nWatching those little screens\nIt warms my servos and circuits\nTo hear some fresh screams♪
+Original labels: 👍, output labels: ['❤', '📱', '🔥']
+
+Sentence: Loving, authentic, breathtaking
+Original labels: ❤, output labels: ['❤', '👍']
+
+Sentence: alina attracts weirdos
+Original labels: 👩, output labels: ['🤮']
+
+Sentence: i better get an iced coffee first” - me before doing any menial task
+Original labels: 🍳, output labels: ['🍳', '😴']
+
+Sentence: Blake Havard - Wave Goodbye
+Original labels: 👨, output labels: ['👋']
+
+Sentence: Man of the Match is RADEBE
+Original labels: 👨, output labels: []
+
+Sentence: 2022 crypto gon be crazyyy
+Original labels: 💰, output labels: ['💰', '🔥']
+
+Sentence: the doctor's dead, he told me he always hated you
+Original labels: 💀, output labels: ['💀', '💬', '🤮']
+
+Sentence: I haven’t drove my truck so I didn’t  know if I had gas he woke before he left for work and filled my gas tank up
+Original labels: ❌, output labels: ['❌', '👉', '👨', '💀', '💼', '🚗']
+
+Sentence: bruhh this! i never knew how to put it into words lmaoo
+Original labels: 😣, output labels: ['💬', '📱', '😣']
+
+Sentence: bunal reveal pls
+Original labels: 🙏, output labels: []
+
+Sentence: yeaa. i'm strong. but not all the time.
+Original labels: 👍, output labels: ['⏰', '❌', '👍']
+
+Sentence: Luggage left unattended may be donated to the post-industrial underclass.
+Original labels: 💼, output labels: ['⛪', '👉', '💰']
+
+Sentence: Obtuse and stupid I think your talking about your own fandom fren
+Original labels: 👨, output labels: ['💬']
+
+Sentence: Ugh, this is so good!
+Original labels: 😂, output labels: ['👋', '👍', '😂', '🥰']
+
+Sentence: Invest in your Girl because if you go broke it’s her who’ll feed you not your niggas 💯🤷🏽‍♂️
+Original labels: 💰, output labels: ['👉', '👩', '💔', '💰', '📅']
+
+Sentence: I'll be back soon ~~Bot
+Original labels: ⏰, output labels: ['⏰', '🏠']
+
+Sentence: Bitch be mad as fuck when a nigga pull out😂
+Original labels: 👎, output labels: ['👨', '👩', '😡']
+
+Sentence: Ummmm find a job but I’ll still take a stimi fuck you talking bout privileged ass how u mad at free money lmao
+Original labels: 👀, output labels: ['👀', '💬', '💰', '💼', '😡']
+
+Sentence: It b the weird energy fa me, eww that’s why i keeps my distance from folks !
+Original labels: 🤮, output labels: ['👨', '🤔', '🤮']
+
+Sentence: say what you want about coi, but i been sing that freestyle everyday since i first heard it
+Original labels: 💬, output labels: ['🎵', '💬', '😂', '😄']
+
+Sentence: Anyway 28 is good age
+Original labels: 📅, output labels: ['👍', '📅']
+
+Sentence: Cue the democratic infighting. Nice job guys.
+Original labels: 👍, output labels: []
+
+Sentence: I can’t sleep in once Im up I’m up
+Original labels: ❌, output labels: ['❌', '🔥', '😴']
+
+Sentence: those bands on his bicep are gonna explode from there
+Original labels: 🎵, output labels: ['🎵', '🔥']
+
+Sentence: Exactly my point
+Original labels: 👌, output labels: ['👉', '💬']
+
+Sentence: agustus please be nice yah! 🙆‍♀️💖🥰🪄
+Original labels: 📅, output labels: ['👍', '📅', '😄', '🙏']
+
+Sentence: I MISSED SO MUCH WHILE I WAS ASLEEP THSI IS TOO MUCH
+Original labels: 😍, output labels: ['😍', '😴']
+
+Sentence: Afternoon Ruby!
+Original labels: 😄, output labels: ['😄']
+
+Sentence: I’ll have a 4 year old in 3 days 😢
+Original labels: 📅, output labels: ['👎', '📅', '😢']
+
+Sentence: Try to tell me strong Uranus in your chart doesnt make you look like this 👽
+Original labels: 💬, output labels: ['❌', '🎵', '💬', '🤮']
+
+Sentence: So many pics \nSo much exciting things coming up ✌🏻 I’ve been sworn to secrecy 👀👀
+Original labels: 🙏, output labels: ['👍', '😍', '🙏']
+
+Sentence: thinking about how surreal it was when roadtrip dropped oh my god
+Original labels: 💬, output labels: ['💬', '😂', '🚗']
+
+Sentence: Nah man that hurts smh
+Original labels: 👨, output labels: []
+
+Sentence: Villa player back in Villa training...  nothing to see here
+Original labels: 👨, output labels: ['❌', '🎮', '👀', '👨']
+
+Sentence: soup time
+Original labels: 🍳, output labels: ['⏰', '🍳']
+
+Sentence: Damn, Lollapalooza fired Da Baby. Nigga had too much dip on his chip. 🤦🏾‍♀️🤣
+Original labels: 😂, output labels: ['🍳', '😂']
+
+Sentence: I just want a good life
+Original labels: 🙏, output labels: ['🙏']
+
+Sentence: This Joneser agrees. None of them are to be trusted.
+Original labels: 👨, output labels: ['❌', '👍', '👨', '😡']
+
+Sentence: A gone girl 🥺♥️
+Original labels: ⏰, output labels: ['⏰', '❌', '👩']
+
+Sentence: I love Elena so much because she’ll let me cry it out and then roast me in the same 5 breaths
+Original labels: ❤, output labels: ['❤', '👉', '👩', '😢']
+
+Sentence: sunmi’s allegiance to the moon and misandrist agenda is v pleasing to me!! I will eat it up every time 🤝
+Original labels: 👩, output labels: ['🍳', '💬', '😄']
+
+Sentence: nicki must’ve changed her stage name to beyonce cause that’s a whole beyhive.
+Original labels: 👨, output labels: ['🎵', '👉', '👨']
+
+Sentence: Big stepper ! I’m so focused on my life and goals I can’t be touched.
+Original labels: 👍, output labels: ['👋', '🔥']
+
+Sentence: This nigga be sayin anythingggg
+Original labels: 👨, output labels: ['👨', '💬']
+
+Sentence: Damn it’s my bday tomorrow I’m single 🥺🥺🥺
+Original labels: 😣, output labels: ['📅', '😂']
+
+Sentence: POV: You just found your twin flame at a festival but your friends are ready to leave.
+Original labels: 👨, output labels: ['🏃', '👋']
+
+Sentence: It’s not beria, it’s just shows how i truly care about your existence in my life
+Original labels: ❌, output labels: ['❤', '🎉', '👉', '😄', '🥰']
+
+Sentence: I am winning in life right now
+Original labels: 👍, output labels: ['👍', '🔥']
+
+Sentence: fuck me innocently with a drill press and call me your cumslut
+Original labels: 😣, output labels: ['👉', '👩', '💬']
+
+Sentence: guys he loved the gift i got him 🥺🥺🥺\n\ni mean ofc he did it was from me hehe
+Original labels: 👨, output labels: ['❤', '👉', '😂']
+
+Sentence: In there recording a bible scripture
+Original labels: 🎵, output labels: ['⛪', '🎵']
+
+Sentence: Just go to a thrift store lol
+Original labels: 🏃, output labels: ['⛪', '🏃', '👉']
+
+Sentence: I turn 27 in a week and I am not okay with officially being in my late twenties.
+Original labels: 📅, output labels: ['👎', '📅', '😣']
+
+Sentence: and blocking is annoying too,,
+Original labels: ❌, output labels: ['❌', '😣']
+
+Sentence: hot choclety Star Wars
+Original labels: 🔥, output labels: ['👀', '🔥']
+
+Sentence: Redvelvet did a suprise special vlive and they are complete OT5 forever🥺
+Original labels: 👨, output labels: ['⏰', '🎉', '👍']
+
+Sentence: The delusion 😵‍💫
+Original labels: 🤮, output labels: ['🤮']
+
+Sentence: Maria almost misyarned🤭
+Original labels: 👩, output labels: ['👩', '🤦']
+
+Sentence: Let’s hope today is much better
+Original labels: 👨, output labels: ['👍', '👨', '📅', '🙏']
+
+Sentence: And a large iced coffee with cream only…..-a large coke? Wuh..n..naw
+Original labels: 🍳, output labels: ['🍳']
+
+Sentence: *spends $800 on high quality 4k camera*\n\n*puts filter on video to make it look like it was filmed in the 70s*
+Original labels: 💰, output labels: ['👉', '💰', '📱']
+
+Sentence: casamigos be having a bitch feeling everything 😂
+Original labels: 👩, output labels: ['😂']
+
+Sentence: And I cant stop smiling because of him 😭
+Original labels: ❌, output labels: ['🏃', '👉', '😄']
+
+Sentence: I thought I was the only one 😭😭
+Original labels: 😣, output labels: ['💔', '😢']
+
+Sentence: How many years are we putting up with this deadwood, what length of contract did Wenger give Elneny ffs
+Original labels: 📅, output labels: ['👨', '👩', '📅']
+
+Sentence: You people use to pass your boundary on this app. Iya Baba e ni bastard
+Original labels: 👨, output labels: ['🏃', '👻', '📱']
+
+Emoji: ⏰ has count: 18 predicted times: 17
+Emoji: ⛪ has count: 20 predicted times: 20
+Emoji: ❌ has count: 76 predicted times: 56
+Emoji: ❤ has count: 36 predicted times: 32
+Emoji: 🌛 has count: 7 predicted times: 5
+Emoji: 🌞 has count: 6 predicted times: 5
+Emoji: 🍳 has count: 14 predicted times: 18
+Emoji: 🎉 has count: 30 predicted times: 30
+Emoji: 🎮 has count: 5 predicted times: 7
+Emoji: 🎵 has count: 13 predicted times: 14
+Emoji: 🏃 has count: 35 predicted times: 30
+Emoji: 🏠 has count: 11 predicted times: 11
+Emoji: 🐶 has count: 2 predicted times: 2
+Emoji: 👀 has count: 26 predicted times: 22
+Emoji: 👉 has count: 102 predicted times: 110
+Emoji: 👋 has count: 13 predicted times: 12
+Emoji: 👌 has count: 14 predicted times: 6
+Emoji: 👍 has count: 67 predicted times: 58
+Emoji: 👎 has count: 15 predicted times: 17
+Emoji: 👔 has count: 3 predicted times: 4
+Emoji: 👦 has count: 9 predicted times: 9
+Emoji: 👨 has count: 119 predicted times: 65
+Emoji: 👩 has count: 64 predicted times: 57
+Emoji: 👻 has count: 8 predicted times: 7
+Emoji: 💀 has count: 7 predicted times: 8
+Emoji: 💉 has count: 5 predicted times: 5
+Emoji: 💔 has count: 10 predicted times: 8
+Emoji: 💦 has count: 9 predicted times: 10
+Emoji: 💩 has count: 14 predicted times: 11
+Emoji: 💬 has count: 56 predicted times: 52
+Emoji: 💰 has count: 18 predicted times: 20
+Emoji: 💼 has count: 13 predicted times: 9
+Emoji: 📅 has count: 43 predicted times: 46
+Emoji: 📖 has count: 11 predicted times: 6
+Emoji: 📱 has count: 19 predicted times: 20
+Emoji: 🔥 has count: 33 predicted times: 36
+Emoji: 😂 has count: 44 predicted times: 44
+Emoji: 😄 has count: 27 predicted times: 31
+Emoji: 😍 has count: 16 predicted times: 12
+Emoji: 😡 has count: 37 predicted times: 26
+Emoji: 😢 has count: 26 predicted times: 19
+Emoji: 😣 has count: 28 predicted times: 19
+Emoji: 😴 has count: 8 predicted times: 13
+Emoji: 😷 has count: 3 predicted times: 3
+Emoji: 🙏 has count: 31 predicted times: 29
+Emoji: 🚗 has count: 2 predicted times: 2
+Emoji: 🤔 has count: 73 predicted times: 54
+Emoji: 🤦 has count: 29 predicted times: 27
+Emoji: 🤮 has count: 25 predicted times: 29
+Emoji: 🥰 has count: 15 predicted times: 10

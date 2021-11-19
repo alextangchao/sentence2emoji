@@ -9,12 +9,13 @@ from scipy import stats
 from transformers import AutoModel, AutoTokenizer 
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MultiLabelBinarizer, StandardScaler
+from utils import DATAPATH, FILEPATH, EMOJIPATH, EMOJI_VOCAB
 # from sentence_transformers import SentenceTransformer
 
-CLASSES = ['❌️','😂','👨‍⚕️'] # ,'👨','♥️','🏬','😞','🅰️','👨‍👨‍👧‍👦','😷','💊','😪','➡️','🎤','🌃','🤩','💀','🍽️','🤦','👃']
-FILEPATH = 'final.csv'
-SENTENCE = 'sentence'
-LABEL = 'label'
+CLASSES = EMOJI_VOCAB
+# CLASSES = ['❌️','😂','👨‍⚕️'] # ,'👨','♥️','🏬','😞','🅰️','👨‍👨‍👧‍👦','😷','💊','😪','➡️','🎤','🌃','🤩','💀','🍽️','🤦','👃']
+SENTENCE = 'senetence'
+LABEL = 'translate'
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print('Using {} device'.format(device))
@@ -28,8 +29,8 @@ def read_csv(filepath):
             if row[LABEL] != '':
                 try:
                     sentences.append(row[SENTENCE])
-                    # current_label = [c for c in row[LABEL] if c in emoji.UNICODE_EMOJI['en']][0]
-                    current_label = [random.choice(CLASSES)]
+                    current_label = [c for c in row[LABEL] if c in emoji.UNICODE_EMOJI['en']]
+                    # current_label = [random.choice(CLASSES)]
                     labels.append(current_label)
                     # print(current_label)
                 except IndexError:
@@ -126,12 +127,14 @@ class toEmoji(nn.Module):
         super().__init__()
         self.input_layer = nn.Linear(768, 400)
         self.hidden1 = nn.Linear(400,200)
-        self.output = nn.Linear(200,3)
+        self.output = nn.Linear(200,50)
         
     def forward(self, data):
         data = F.relu(self.input_layer(data))
         data = F.relu(self.hidden1(data))
+        # data = self.output(data)
         return self.output(data)
+        # return F.sigmoid(data)
 
         # return F.log_softmax(data, dim=1)
 
