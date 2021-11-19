@@ -64,14 +64,6 @@ def tanslate_sentence_list(sentence_list):
     return tokenizer.batch_decode(output_sequences, skip_special_tokens=True)
 
 
-<<<<<<< HEAD:Models/T5/T5_test.py
-sentences, labels = read_csv(FILE_PATH)
-tanslate_one_sentence("Nice to see you!")
-# translation = tanslate_sentence_list(sentences)
-# for index, sentence in enumerate(sentences):
-#     print(f'Sentence: {sentence}')
-#     print(f"Original labels: {labels[index]}, output labels: '{translation[index]}'")
-=======
 def main():
     # tanslate_one_sentence("He is running like a superman! :skull:")
     # return
@@ -85,4 +77,3 @@ def main():
 
 if __name__ == "__main__":
     main()
->>>>>>> aab2000ee99c041ae6a3db2c68971c908523089e:test/T5/T5_test.py
