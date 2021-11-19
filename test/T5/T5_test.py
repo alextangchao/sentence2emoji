@@ -4,10 +4,10 @@ import emoji
 
 # MODEL = "t5-small"
 MODEL = ".\\output\\"
-FILE_PATH = ".//..//490A final project data - mmz Dataset.csv"
-SENTENCE = 'Sentence'
+FILE_PATH = ".\\..\\490A final project data - Emoji-50-467.csv"
+SENTENCE = 'senetence'
 # LABEL = 'label'
-LABEL = 'Translate'
+LABEL = 'translate'
 
 
 def read_csv(filepath):
@@ -32,9 +32,12 @@ def tanslate_one_sentence(sentence):
     tokenizer = T5Tokenizer.from_pretrained(MODEL)
     model = T5ForConditionalGeneration.from_pretrained(MODEL)
 
-    input_ids = tokenizer(f'translate English to Emoji: {sentence}', return_tensors='pt').input_ids
-    print(input_ids)
-    outputs = model.generate(input_ids)
+    # print(tokenizer.add_tokens([":skull:"]))
+
+    encoding = tokenizer(f'translate English to Emoji: {sentence}', return_tensors='pt')
+    print(encoding)
+    print(tokenizer.tokenize(f'translate English to Emoji: {sentence}'))
+    outputs = model.generate(encoding["input_ids"])
     print(outputs)
     print(tokenizer.decode(outputs[0], skip_special_tokens=True))
 
@@ -61,9 +64,16 @@ def tanslate_sentence_list(sentence_list):
     return tokenizer.batch_decode(output_sequences, skip_special_tokens=True)
 
 
-sentences, labels = read_csv(FILE_PATH)
-# tanslate_one_sentence("Nice to see you!")
-translation = tanslate_sentence_list(sentences)
-for index, sentence in enumerate(sentences):
-    print(f'Sentence: {sentence}')
-    print(f"Original labels: {labels[index]}, output labels: '{translation[index]}'")
+def main():
+    # tanslate_one_sentence("He is running like a superman! :skull:")
+    # return
+
+    sentences, labels = read_csv(FILE_PATH)
+    translation = tanslate_sentence_list(sentences)
+    for index, sentence in enumerate(sentences):
+        print(f'Sentence: {sentence}')
+        print(f"Original labels: {labels[index]}, output labels: '{translation[index]}'")
+
+
+if __name__ == "__main__":
+    main()
