@@ -1,4 +1,4 @@
-import torch, csv, emoji
+import torch, csv, emoji, os, sys
 from torch.utils import data
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader, Dataset
@@ -9,6 +9,8 @@ import numpy as np
 from transformers import AutoModel, AutoTokenizer 
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MultiLabelBinarizer
+from torchtext.data.metrics import bleu_score
+from utils import DATAPATH
 # total = np.empty((0,3), float)
 # a = torch.tensor([1,2,3,4,5])
 # b = torch.tensor([6,7,8,9,0])
@@ -71,19 +73,87 @@ from sklearn.preprocessing import MultiLabelBinarizer
 # print(result)
 
 
-bertweet = AutoModel.from_pretrained("vinai/bertweet-base")
+# bertweet = AutoModel.from_pretrained("vinai/bertweet-base")
 
-# For transformers v4.x+: 
-tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-base", use_fast=False)
+# # For transformers v4.x+: 
+# tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-base", use_fast=False)
 
-# For transformers v3.x: 
-# tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-base")
+# # For transformers v3.x: 
+# # tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-base")
 
-# INPUT TWEET IS ALREADY NORMALIZED!
-line = "SC has first two presumptive cases of coronavirus , DHEC confirms HTTPURL via @USER :crying_face:"
+# # INPUT TWEET IS ALREADY NORMALIZED!
+# line = "SC has first two presumptive cases of coronavirus , DHEC confirms HTTPURL via @USER :crying_face:"
 
-input_ids = torch.tensor([tokenizer.encode(line)])
+# input_ids = torch.tensor([tokenizer.encode(line)])
 
-with torch.no_grad():
-    features = bertweet(input_ids)  # Models outputs are now tuples
-    print(features)
+# with torch.no_grad():
+#     features = bertweet(input_ids)  # Models outputs are now tuples
+#     print(features)
+
+
+def read_csv(filepath):
+    with open(filepath, 'r', encoding='utf8') as csv_file:
+        csv_reader = csv.DictReader(csv_file, delimiter=',')   
+        sentences = []
+        labels = []
+        for row in csv_reader:
+            if row[LABEL] != '':
+                try:
+                    sentences.append(row[SENTENCE])
+                    current_label = [c for c in row[LABEL] if c in emoji.UNICODE_EMOJI['en']]
+                    # current_label = [random.choice(CLASSES)]
+                    labels.append(current_label)
+                    # print(current_label)
+                except IndexError:
+                    print(row)
+
+    return sentences, labels
+
+
+# 490A final project data - Emoji-50-01
+# def read_csv(folderpath):
+#     print('\n-----------------------Begining Data Loading-----------------------')
+#     sentences = []
+#     emojis = []
+#     for filename in os.listdir(folderpath):
+#         if filename.endswith(".csv") and filename.startswith("490A final project data"):
+#             filename_components = filename.split("-")
+#             file_index = filename_components[-1].strip('.csv')
+#             print("\nLoading data for file '{}'.".format(file_index))
+#             sys.stdout.flush()
+#             data_file = os.path.join(DATAPATH, filename)
+            
+#             num_data_cur_file = 0
+#             with open(data_file, 'r', encoding='utf8') as csv_file:
+#                 csv_reader = csv.DictReader(csv_file, delimiter=',') 
+#                 sentence_name = csv_reader.fieldnames[0]
+#                 label_name = csv_reader.fieldnames[1]
+#                 for row in csv_reader:
+#                     if row[label_name] != '':
+#                         try:
+#                             sentences.append(row[sentence_name])
+#                             emojis.append([c for c in row[label_name] if c in emoji.UNICODE_EMOJI['en']])
+#                             num_data_cur_file += 1
+#                         except IndexError:
+#                             print(row)
+#             print(f'Loaded {num_data_cur_file} labelled sentence and emoji data.')
+    
+#     print(f'\nLoaded total {len(sentences)} labelled sentence and emoji data.')
+#     print('\n-----------------------Finished Data Loading-----------------------\n')
+#     return sentences, emojis
+
+# # read_csv(DATAPATH)
+a = [["1","0","1","0"]]
+b = [[["1","0","1","0"]]]
+print(bleu_score(a,b,max_n=2,weights=[0.5,0.5]))
+
+# def convert_str(input_list):
+#     result = []
+#     for outter in input_list:
+#         temp = []
+#         for inner in outter:
+#             temp.append(str(inner))
+#         result.append(temp)
+#     return result
+
+# print(convert_str([[0,1,2,3]]))

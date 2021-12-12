@@ -1,4 +1,4 @@
-import torch, csv, emoji, random
+import torch, csv, emoji, random, os, sys
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader, Dataset
 import torch.nn as nn
@@ -7,37 +7,61 @@ import torch.optim as optim
 import numpy as np
 from scipy import stats
 from transformers import AutoModel, AutoTokenizer 
+from sklearn import model_selection
+from sklearn.model_selection import KFold
 from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import MultiLabelBinarizer, StandardScaler
-from utils import DATAPATH, FILEPATH, EMOJIPATH, EMOJI_VOCAB
+from timeit import default_timer as timer
+from utils import EMOJIPATH, EMOJI_VOCAB
 # from sentence_transformers import SentenceTransformer
 
 CLASSES = EMOJI_VOCAB
 # CLASSES = ['❌️','😂','👨‍⚕️'] # ,'👨','♥️','🏬','😞','🅰️','👨‍👨‍👧‍👦','😷','💊','😪','➡️','🎤','🌃','🤩','💀','🍽️','🤦','👃']
-SENTENCE = 'senetence'
-LABEL = 'translate'
 
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print('Using {} device'.format(device))
 
-def read_csv(filepath):
-    with open(filepath, 'r', encoding='utf8') as csv_file:
-        csv_reader = csv.DictReader(csv_file, delimiter=',')   
-        sentences = []
-        labels = []
-        for row in csv_reader:
-            if row[LABEL] != '':
-                try:
-                    sentences.append(row[SENTENCE])
-                    current_label = [c for c in row[LABEL] if c in emoji.UNICODE_EMOJI['en']]
-                    # current_label = [random.choice(CLASSES)]
-                    labels.append(current_label)
-                    # print(current_label)
-                except IndexError:
-                    print(row)
+def convert_str(input_list):
+    result = []
+    for outter in input_list:
+        temp = []
+        for inner in outter:
+            temp.append(str(inner))
+        result.append(temp)
+    return result
 
-    return sentences, labels
-
+def read_csv(folderpath):
+    print('\n-----------------------Begining Data Loading-----------------------')
+    extract_start = timer()
+    sentences = []
+    emojis = []
+    for filename in os.listdir(folderpath):
+        if filename.endswith(".csv") and filename.startswith("490A final project data"):
+            filename_components = filename.split("-")
+            file_index = filename_components[-1].strip('.csv')
+            print("\nLoading data for file '{}'.".format(file_index))
+            sys.stdout.flush()
+            data_file = os.path.join(folderpath, filename)
+            
+            num_data_cur_file = 0
+            with open(data_file, 'r', encoding='utf8') as csv_file:
+                csv_reader = csv.DictReader(csv_file, delimiter=',') 
+                sentence_name = csv_reader.fieldnames[0]
+                label_name = csv_reader.fieldnames[1]
+                for row in csv_reader:
+                    if row[label_name] != '':
+                        try:
+                            sentences.append(row[sentence_name])
+                            emojis.append([c for c in row[label_name] if c in emoji.UNICODE_EMOJI['en']])
+                            num_data_cur_file += 1
+                        except IndexError:
+                            print(row)
+            print(f'Loaded {num_data_cur_file} labelled sentence and emoji data.')
+    
+    extract_end = timer()
+    print('\nLoaded total {} labelled sentence and emoji data in {:.1f} minutes.'.format(len(sentences), (extract_end-extract_start)/60))
+    print('\n-----------------------Finished Data Loading-----------------------\n')
+    return sentences, emojis
 # def vectorize_sentence_sent_trans(filepath):
 #     sent_trans = SentenceTransformer('all-mpnet-base-v2')
 #
@@ -60,7 +84,7 @@ def read_csv(filepath):
 #
 #     return features, labels, total, sentences, emojis, mlb.classes_
 
-def vectorize_sentence(filepath):
+def vectorize_sentences(filepath):
     bertweet = AutoModel.from_pretrained("vinai/bertweet-base")
     tokenizer = AutoTokenizer.from_pretrained("vinai/bertweet-base", use_fast=False)
     
@@ -71,6 +95,10 @@ def vectorize_sentence(filepath):
     
     total = np.array([])
     features = np.array([])
+
+    print('\n-----------------------Begining Feature Extraction-----------------------')
+    extract_start = timer()
+
     for text, label in zip(sentences, labels):
         encoding = tokenizer.encode_plus(
             text,
@@ -103,11 +131,18 @@ def vectorize_sentence(filepath):
     # features = stats.zscore(features, axis=1, ddof=1)
     
     # return features, labels, total, sentences, labels, [0,1,2]
+
+    extract_end = timer()
+    print('Extracted total {} feature and label data in {:.1f} minutes.'.format(len(features), (extract_end-extract_start)/60))
+    print('\n-----------------------Finished Feature Extraction-----------------------\n')
+
     return features, labels, total, sentences, emojis, mlb.classes_
 
 class emojiDataset(Dataset):
-    def __init__(self):
-        self.x, self.y, self.n_samples, self.sentences, self.emojis, self.y_classes = vectorize_sentence(FILEPATH)
+    def __init__(self, features, labels):
+        self.x = features
+        self.y = labels
+        self.n_samples = features.shape[0]
         self.x = torch.from_numpy(self.x) 
         # self.y = torch.FloatTensor(self.y)
         self.y = torch.from_numpy(self.y).type(torch.FloatTensor)
@@ -119,7 +154,7 @@ class emojiDataset(Dataset):
         return self.x[index], self.y[index]
         
     def __len__(self):
-        return self.n_samples.shape[0]
+        return self.n_samples
 
 
 class toEmoji(nn.Module):
