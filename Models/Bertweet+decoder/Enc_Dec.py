@@ -16,36 +16,40 @@ import torch.optim as optim
 from torchtext.legacy.data import Dataset, Example, Field, BucketIterator, Iterator
 from torch.utils.tensorboard import SummaryWriter
 
-spacy_eng = spacy.load('en_core_web_sm')
+import torch
+import torch.nn as nn
+import torch.optim as optim
+from torchtext.datasets import Multi30k
+import numpy as np
+import spacy
+import random
+from torch.utils.tensorboard import SummaryWriter  # to print to tensorboard
+from utils import translate_sentence, bleu, save_checkpoint, load_checkpoint
 
-sentences = ['Who wants to play Fortnite later?',
-    'HE GOING TO ESPN?👀👀👀Commentate La Liga',
-    'how are all of you doing today']
-
-labels = ['🤔🎮','👨➡️📺','🤔👤➡️']
+spacy_ger = spacy.load("de_core_news_sm")
+spacy_eng = spacy.load("en_core_web_sm")
 
 
-def sentence_tokenizer(text):
+def tokenize_ger(text):
+    return [tok.text for tok in spacy_ger.tokenizer(text)]
+
+
+def tokenize_eng(text):
     return [tok.text for tok in spacy_eng.tokenizer(text)]
-def emoji_tokenizer(emojis):
-    return  [c for c in emojis if c in emoji.UNICODE_EMOJI['en']]
-
-sentences_field = Field(tokenize=sentence_tokenizer, lower=True, init_token='<sos>', eos_token='<eos>')
-emoji_field = Field(tokenize=emoji_tokenizer, lower=True, init_token='<sos>', eos_token='<eos>')
 
 
+german = Field(tokenize=tokenize_ger, lower=True, init_token="<sos>", eos_token="<eos>")
 
-FIELDS = [('sentence', sentences_field), ('emoji', emoji_field)]
+english = Field(
+    tokenize=tokenize_eng, lower=True, init_token="<sos>", eos_token="<eos>"
+)
 
-examples = list(map(lambda x: Example.fromlist(list(x), fields=FIELDS), sentences))
-      
-dt = Dataset(examples, fields=FIELDS)
+train_data, valid_data, test_data = Multi30k.splits(
+    exts=(".de", ".en"), fields=(german, english)
+)
 
-
-sentences_field.build_vocab(dt, vectors="glove.6B.100d")
-emoji_field.build_vocab(dt, vectors="glove.6B.100d")
-
-
+german.build_vocab(train_data, max_size=10000, min_freq=2)
+english.build_vocab(train_data, max_size=10000, min_freq=2)
 
 class Encoder(nn.Module):
     def __init__(self, input_size, embedding_size, hidden_size, num_layers, dp):
@@ -148,7 +152,7 @@ data_iter = Iterator(dt, batch_size=2, sort_key=lambda x: len(x), device=device)
 
 encoder_net = Encoder(input_size_encoder, encoder_embedding_size, hidden_size, num_layers, encoder_dropout)
 
-decoder_net = Decoder(input_size_decoder, encoder_embedding_size, hidden_size, num_layers, decoder_dropout)
+decoder_net = Decoder(input_size_decoder, decoder_embedding_size, hidden_size, num_layers, decoder_dropout)
 
 model = Sentence2emoji(encoder_net, decoder_net)
 optimizer = optim.Adam(model.parameters(), lr=learning_rate)
