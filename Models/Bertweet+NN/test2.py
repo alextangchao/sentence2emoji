@@ -1,4 +1,5 @@
 import torch, csv, emoji, os, sys
+from torch.functional import Tensor
 from torch.utils import data
 from torchvision import datasets, transforms
 from torch.utils.data import DataLoader, Dataset
@@ -143,8 +144,8 @@ def read_csv(filepath):
 #     return sentences, emojis
 
 # # read_csv(DATAPATH)
-a = [["1","0","1","0"]]
-b = [[["1","0","1","0"]]]
+a = [["1","0","1","1"]]
+b = [[["1","1","1","0"]]]
 print(bleu_score(a,b,max_n=2,weights=[0.5,0.5]))
 
 # def convert_str(input_list):
@@ -157,3 +158,35 @@ print(bleu_score(a,b,max_n=2,weights=[0.5,0.5]))
 #     return result
 
 # print(convert_str([[0,1,2,3]]))
+def convert_1d_str(input_1d_list):
+    result = []
+    for inner in input_1d_list:
+        if isinstance(inner, torch.Tensor):
+            result.append(str(int(inner.item())))
+        else:
+            result.append(str(inner))
+    return result
+
+def convert_2d_str(input_2d_list):
+    result = []
+    for outter in input_2d_list:
+        result.append(convert_1d_str(outter))
+    return result
+
+
+# print(emoji_accuracy(b[0][0],a[0]))
+c = torch.Tensor([[0,1,1,2,3,]])
+
+def emojis_accuracy(candidates, references):
+    correct = 0
+    total = 0
+    for candidate, reference in zip(candidates, references):
+        if int(reference) == 1: 
+            total+=1
+            if int(candidate) == int(reference): 
+                correct += 1
+    return float(correct/total)
+d = ['1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0']
+e = ['1', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '0', '1', '0', '0', '0', '0', '0']
+
+print(emojis_accuracy(d,e))

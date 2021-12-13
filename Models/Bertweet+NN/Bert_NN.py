@@ -21,14 +21,30 @@ CLASSES = EMOJI_VOCAB
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
 print('Using {} device'.format(device))
 
-def convert_str(input_list):
+def convert_1d_str(input_1d_list):
     result = []
-    for outter in input_list:
-        temp = []
-        for inner in outter:
-            temp.append(str(inner))
-        result.append(temp)
+    for inner in input_1d_list:
+        if isinstance(inner, torch.Tensor):
+            result.append(str(int(inner.item())))
+        else:
+            result.append(str(inner))
     return result
+
+def convert_2d_str(input_2d_list):
+    result = []
+    for outter in input_2d_list:
+        result.append(convert_1d_str(outter))
+    return result
+
+def emojis_accuracy(candidates, references):
+    correct = 0
+    total = 0
+    for candidate, reference in zip(candidates, references):
+        if int(reference) == 1: 
+            total+=1
+            if int(candidate) == int(reference): 
+                correct += 1
+    return float(correct/total)
 
 def read_csv(folderpath):
     print('\n-----------------------Begining Data Loading-----------------------')
